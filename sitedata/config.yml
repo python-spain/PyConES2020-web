@@ -1,25 +1,25 @@
-name: MiniConf
-tagline: MINICONF <br> CONFERENCE <br> MANAGEMENT
-date: May 2020
-citation_date: May 2020
-proceedings_title: Proceedings of the First MiniCon Conference
-analytics: UA-
+name: PyConES 2020 Online
+tagline: PyConES 2020 Online<br> Pandemic Edition
+date: 3 de octubre de 2020
+citation_date: 3 de octubre de 2020
+# proceedings_title: PyConES 2020 Online
+analytics: 
 logo:
-  image: static/images/MiniConf.png
-  width: 180px
+  image: static/images/logo-pyes.png
+  width: 40px
   height: auto
 # uncomment the following line to show the site title next to the logo image
-# site_title: MiniConf
+# site_title: PyConES 2020
 page_title:
-  prefix: 'MiniConf 2020'
+  prefix: 'PyConES 2020 Online'
   separator: ': '
 background_image: static/images/main.jpg
-organization: MiniConf Organization Committee
+organization: Grupo de Trabajo PyConES 2020 Online
 
 # Remove or change to your chat server.
-chat_server: miniconf.sloppy.zone
-default_presentation_id: 38922815
-default_poster_pdf: /static/images/GLTR_poster.pdf
+# chat_server: miniconf.sloppy.zone
+# default_presentation_id: 38922815
+# default_poster_pdf: /static/images/GLTR_poster.pdf
 
 
 # Configuration for auth

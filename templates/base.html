@@ -70,12 +70,7 @@
     <!-- NAV -->
     {% block header %}
     {% set navigation_bar = [
-    ('index.html', 'Home'),
-    ('calendar.html', 'Schedule'),
-    ('papers.html', 'Papers'),
-    ('workshops.html', 'Workshops'),
-    ('chat.html', 'Chat'),
-    ('about.html', 'Help'),
+    ('index.html', 'Inicio')
     ] -%}
 
     <nav
@@ -138,6 +133,7 @@
     {% block footer %}
 
     <!-- Google Analytics -->
+    {% if config.analytics %}
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id={{config.analytics}}"
@@ -150,11 +146,21 @@
       gtag("js", new Date());
       gtag("config", "{{config.analytics}}");
     </script>
+    {% endif %}
 
     <!-- Footer -->
     <footer class="footer bg-light p-4">
       <div class="container">
-        <p class="float-right"><a href="#">Back to Top</a></p>
+        <div class="row justify-content-center">
+          <div class="col-sm-5">
+            <a href="https://es.python.org">
+              <img src="/static/images/logo-pyes-letras.png" style="width: 100%">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+        <p class="float-right"><a href="#">Subir</a></p>
         <p class="text-center">© 2020 {{config.organization}}</p>
       </div>
     </footer>
