@@ -1,0 +1,371 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+
+    <!-- External Javascript libs  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+      href="static/css/Lato.css"
+      rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet" />
+    <link
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
+    />
+
+    <title>PyConES 2020 Online</title>
+    
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+      id="main-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+             class="logo" src="static/images/logo-pyes.png"
+             height="auto"
+             width="40px"
+          />
+        </a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    
+    <!-- User Overrides -->
+    
+<style>
+  .back {
+    background: url("static/images/main.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .back h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+  }
+</style>
+
+<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+  <div class="row header p-6 m-5">
+    <div class="p-1 mx-auto text-center text-white col-md-9 col-sm-12">
+      <h2>
+        PyConES 2020 Online<br> Pandemic Edition
+      </h2>
+      <h2 class="p-5">
+        3 de octubre de 2020
+      </h2>
+    </div>
+  </div>
+</div>
+
+
+    <div class="container">
+      <!-- Tabs -->
+      <div class="tabs">
+         
+      </div>
+      <!-- Content -->
+      <div class="content">
+        
+
+<h1><a name="spanish-version"></a>¡Abierto el Call for Proposals para PyConES 2020!</h1>
+<p><center><small>
+ NOTE: If you don’t speak Spanish <a href="#english-version">go to the ENGLISH version</a>
+</small></center></p>
+<p><span id="spanish-version"></span>
+¡Nos complace anunciar que el C4P para <strong>PyConES 2020</strong> <em>(edición Online)</em> está abierto!</p>
+<p>Ya nos puedes enviar tus propuestas para la conferencia. Lee con atención ya que este año hay algunos cambios importantes.</p>
+<h2>Código de conducta</h2>
+<p>Queremos que la conferencia sea una experiencia agradable, acogedora y libre de acoso para todo el mundo. PyConES 2020 posee un <a href="https://www.es.python.org/pages/codigo-de-conducta.html">código de conducta</a> de obligado cumplimiento para todas las personas que participen en el evento.</p>
+<h2>Dónde y cuándo:</h2>
+<p>La octava edición de la PyConES se celebrará durante el día <strong>3 de Octubre de 2020</strong> como un evento en línea.</p>
+<h2>Hasta cuándo puedo presentar mis propuestas:</h2>
+<p>Podrás presentar todas tus propuestas hasta las 23:59 del <s><strong>Domingo 26 de Julio de 2020</strong></s> <s><strong>Domingo 2 de Agosto de 2020</strong></s> <strong>Domingo 16 de Agosto de 2020</strong>.</p>
+<h2>Qué formatos se aceptan</h2>
+<p>Este año excepcionalmente hemos limitado las charlas a un solo formato de charla corta de 20 minutos para facilitar tanto la organización como la asistencia.</p>
+<p>Así las charlas tendrán una duración total de 20 minutos, con 15 minutos para la ponencia y 5 para preguntas del público.</p>
+<h2>De qué temas puedo hablar</h2>
+<p>Te proponemos los siguientes temas:</p>
+<ul>
+<li>
+<p><strong>Core</strong> - Características del lenguaje, implementaciones de Python (CPython, Pypy,...), extensión de Python y biblioteca estándar, aspectos internos del lenguaje</p>
+</li>
+<li>
+<p><strong>Comunidad, sociedad y cultura</strong> - Diversidad, salud, productividad, problemas en el sector tecnológico/comunidad, privacidad, participación ciudadana, proyectos tecnológicos con fines sociales,…</p>
+</li>
+<li>
+<p><strong>Ciencia de datos, Machine Learning e IA</strong></p>
+</li>
+<li>
+<p><strong>Computación científica</strong> - Uso de Python en ciencia e investigación: SIG, matemáticas, simulaciones, espacio, bioingeniería,…</p>
+</li>
+<li>
+<p><strong>Web</strong> - Desarrollo Web, APIs, Microservicios,…</p>
+</li>
+<li>
+<p><strong>Aplicaciones de Escritorio</strong> -  Qt, GTK+, Tkinter, Gnome, KDE, Accesibilidad,…</p>
+</li>
+<li>
+<p><strong>Videojuegos y Diseño</strong> -  Python en el desarrollo de videojuegos, animación, modelado 3D,…</p>
+</li>
+<li>
+<p><strong>Python Embebido e IoT</strong> - MicroPython, robótica, Arduino, Raspberry Pi,…</p>
+</li>
+<li>
+<p><strong>Sys / DevOps</strong> - Herramientas de desarrollo y automatización, tests, CI / CD, contenedores, orquestación, registro y monitorización,…</p>
+</li>
+<li>
+<p><strong>Redes y seguridad</strong> -  Programación de redes, seguridad de redes, cifrado,...</p>
+</li>
+</ul>
+<p>En PyConES tenemos un público con intereses muy variados así que aceptamos propuestas que ofrezcan una introducción para aquellas personas recién iniciadas en cualquiera de estos temas, como aquellas que deseen profundizar en algún aspecto en concreto para quien domina la materia.</p>
+<h2>Cómo será el proceso de selección</h2>
+<ol>
+<li>
+<p>Debes rellenar el formulario de inscripción que encontrarás al final y nos tienes que mandar un enlace a un vídeo (que puede ser privado) de no más de 5 minutos con el resumen de la charla. Ten en cuenta que, si te seleccionamos, te pediremos luego que antes de la conferencia grabes y envíes un vídeo de 15’ que será emitido durante la conferencia.</p>
+</li>
+<li>
+<p>Un grupo formado por personas voluntarias de la Asociación Python España junto con el equipo organizador revisará los vídeos y hará la selección final atendiendo a criterios de interés y diversidad, pudiendo contactar contigo si surge alguna duda o fuese necesaria alguna aclaración.</p>
+</li>
+<li>
+<p>Durante el mes de agosto nos pondremos en contacto con aquellas personas que hayan resultado seleccionadas y deberán crear un vídeo de 15’ con la charla completa y enviarlo a la organización antes del <strong>15 de septiembre.</strong></p>
+</li>
+<li>
+<p>La semana anterior al evento se te comunicará el slot de emisión y esperamos que estés online para contestar a los 5 minutos de preguntas post emisión.</p>
+</li>
+</ol>
+<h2>Otras consideraciones</h2>
+<ul>
+<li>Recuerda que durante el proceso de evaluación de las propuestas quizás contactemos contigo para hacerte algunas preguntas adicionales.</li>
+<li>Puedes enviar varias propuestas.</li>
+<li>Las propuestas puedes hacerlas individualmente o en grupo.</li>
+<li>Tanto si seleccionamos tu propuesta como si no, te enviaremos una notificación.</li>
+</ul>
+<p>Si tienes alguna duda o requisito especial, puedes escribirnos a <strong><a href="mailto:contact@2020.es.pycon.org">contact@2020.es.pycon.org</a></strong></p>
+<h2>Queremos ayudarte</h2>
+<p>Una de las metas de la comunidad Python consiste en fomentar la diversidad. Por ello, desde la organización, queremos mejorar la participación de grupos infrarrepresentados o que este sea el evento donde des tu primera charla.</p>
+<p>Hay un millón de razones por las que puedes sentir que no tienes el conocimiento. experiencia o preparación necesarias para enviarnos una propuesta, pero ¡estamos aquí para demostrarte que te equivocas! Desde la organización queremos ayudarte a desarrollar y perfeccionar las habilidades que crees que te faltan para dar una charla estupenda.</p>
+<ul>
+<li>Estaremos encantadas de reunirnos contigo para hablar sobre tus intereses y darle forma a un tema concreto sobre el que hablar o preparar un taller.</li>
+<li>Podemos aconsejarte sobre cómo preparar las slides (y ayudarte a hacerlo).</li>
+<li>Podemos aconsejarte sobre cómo preparar el vídeo de la propuesta o sobre cómo editarlo.</li>
+<li>Si necesitas practicar la charla podemos reunir a un grupo de personas de confianza para que puedas hablar delante de una multitud amigable y que te den feedback.</li>
+<li>O ponerte en contacto con alguien con experiencia en el tema que pueda ayudarte a preparar tu propuesta o a darla junto a ti.</li>
+</ul>
+<p>Puedes contactarnos para cualquier cosa que necesites.</p>
+<p>Escríbenos a: <strong><a href="mailto:contact@2020.es.pycon.org">contact@2020.es.pycon.org</a></strong></p>
+<p>Si aún no te hemos animado lo suficiente, puedes visitar <a href="http://weareallaweso.me/">We Are All Awesome</a> donde encontrarás más razones para convencerte.</p>
+<p><center></p>
+<h2><a href="https://forms.gle/ALzXkXhBRDV55D3d6">ACCEDE AL FORMULARIO </a></h2>
+<p></center></p>
+<hr style="margin-bottom: 50px">
+
+<h1><a name="english-version"></a>PyConES 2020 Call for Proposals is open!!!</h1>
+<p><center><small>
+NOTE: Si hablas español, puedes <a href="#spanish-version">ir a la versión es ESPAÑOL</a>
+</small></center></p>
+<p>We are pleased to announce that the C4P for <strong>PyConES 2020</strong> <em>(Online version)</em> is open!</p>
+<p>Now you can send us your proposals for the PyConES 2020 conference and this year we will have some important changes!</p>
+<h2>Code of Conduct</h2>
+<p>We want to have a welcoming and pleasant conference, with a harassment-free experience for everyone. PyConES 2020 has a mandatory <a href="https://es.python.org/pages/codigo-de-conducta.html">code of conduct</a> for all people participating in the event.</p>
+<h2>Where and when</h2>
+<p>The eighth edition of PyConES will be held on <strong>October 3rd, 2020</strong> as an online event.</p>
+<h2>What is the deadline to submit my proposal</h2>
+<p>You can submit all your proposals until 23:59 on <s><strong>Sunday, July 26, 2020</strong></s> <s><strong>Sunday, August 2, 2020</strong></s> <strong>Sunday, August 16, 2020</strong>.</p>
+<h2>Type of sessions available</h2>
+<p>As per the current situation this year we’re changing the format and limiting it to just one option, the 20 minutes short talk, in order to make it easier for both speakers and attendees.</p>
+<p>So, you’ll have a 20 minutes slot divided in 15 minutes for the talk and 5 minutes for questions from the attendees.</p>
+<h2>What can I talk about</h2>
+<p>We’d like to propose the following topics:</p>
+<ul>
+<li>
+<p><strong>Core Python</strong> - Language Features, Python Implementations, Extending Python and Standard Library, language internals.</p>
+</li>
+<li>
+<p><strong>Community, culture and society</strong> - Diversity, health, productivity, workspace issues, privacy, community building, coding for causes.</p>
+</li>
+<li>
+<p><strong>Data Science, Machine Learning and AI</strong></p>
+</li>
+<li>
+<p><strong>Scientific Computing</strong> - Python usage in scientific computing and research. GIS, Mathematics, Simulations.</p>
+</li>
+<li>
+<p><strong>Web</strong> -  Web development, APIs, Microservices...</p>
+</li>
+<li>
+<p><strong>Desktop Applications</strong> - Qt, GTK+, Tkinter, Gnome, KDE, Accessibility.</p>
+</li>
+<li>
+<p><strong>Game, Design and 3D Modelling </strong>- Python in developing games, 3-D modelling and animation.</p>
+</li>
+<li>
+<p><strong>Embedded Python and IoT</strong> - MicroPython, Python on Hardware, Robotics, Arduino and Raspberry Pi.</p>
+</li>
+<li>
+<p><strong>Sys / Dev Ops</strong> - Testing, CI/CD, Containers, Orchestration, Logging and Monitoring.</p>
+</li>
+<li>
+<p><strong>Networking and Security</strong> - Network Programming, Network Security and Encryption</p>
+</li>
+</ul>
+<p>At PyConES we have an audience with different backgrounds and diverse interests. Therefore, we accept proposals that offer an introduction for those newly initiated, as well as those proposals that deepen in some aspect in particular for those who dominate the topic.</p>
+<h2>How will the selection process be?</h2>
+<ol>
+<li>
+<p>You have fill out the form that you will find at the end and send us a link to a video of no more than 5 minutes with the talk’s summary. Please note that if you’re selected we’ll ask you to record a 15’ video that will be broadcasted during the event.</p>
+</li>
+<li>
+<p>A group of volunteers and organizers of Python España will check the videos and will make the final selection, attending interest and diversity criteria. They can contact you if some question arises or some clarification is needed.</p>
+</li>
+<li>
+<p>During August we’ll contact the selected speakers so they need to create a 15’ video with the complete talk and send it to the organization before <strong>September 15th.</strong></p>
+</li>
+<li>
+<p>The week before the event we will tell you the emission slot, so you can be online to answer the question live during the 5’ after the emission.</p>
+</li>
+</ol>
+<h2>Other considerations</h2>
+<ul>
+<li>Remember that during the evaluation process we may contact you to ask for more information about your proposal.</li>
+<li>You can send all the proposals you want.</li>
+<li>The proposals can be individual or in a group.</li>
+<li>Whether we select your proposal or not, we will send you a notification.</li>
+</ul>
+<p>If you have any questions or special requirements, you can write to us at <strong><a href="mailto:contact@2020.es.pycon.org">contact@2020.es.pycon.org</a></strong></p>
+<h2>We want to help you</h2>
+<p>One of the goals of the Python community is to promote diversity. So, from the organization, we want to improve the participation of underrepresented groups and we also want to be the event where you give your first talk.</p>
+<p>There are a million reasons why you may feel that you don't have the knowledge or experience required to send us a proposal, but we are here to prove you are wrong! From the organization we want to help you so you can give a great talk.</p>
+<ul>
+<li>We are happy to meet with you to talk about your interests and advise you on a specific topic for your proposal, either talk or workshop.</li>
+<li>We can advise on how to prepare the slides and help you with it.</li>
+<li>We can advise on how to prepare the video for the proposal and how to edit it.</li>
+<li>If you need to practice the talk, we can gather a group of trusted people so you can talk in front of a friendly crowd and they give you feedback.</li>
+<li>Or we can contact someone with experience in the subject, to help you to prepare your proposal or participate with you.</li>
+</ul>
+<p>You can contact us for anything you need.</p>
+<p>Write to us at: <strong><a href="mailto:contact@2020.es.pycon.org">contact@2020.es.pycon.org</a></strong></p>
+<p>If you are not still convinced, please visit <a href="http://weareallaweso.me/">We Are All Awesome</a> where you can find more reasons about why you should submit your proposal.</p>
+<p><center></p>
+<h2><a href="https://forms.gle/zXzaZ9VHbwfzwWabA">ACCESS THE FORM</a></h2>
+<p></center></p>
+
+
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-5">
+            <a href="https://es.python.org">
+              <img src="/static/images/logo-pyes-letras.png" style="width: 100%">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+        <p class="float-right"><a href="#">Subir</a></p>
+        <p class="text-center">© 2020 Grupo de Trabajo PyConES 2020 Online</p>
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    
+  </body>
+</html>
