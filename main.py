@@ -20,11 +20,11 @@ def main(site_data_path):
     # Load all for your sitedata one time.
     for f in glob.glob(site_data_path + "/*"):
         extra_files.append(f)
-        name, typ = f.split("/")[-1].split(".")
+        name, typ = f.split(os.sep)[-1].split(".")
         if typ == "json":
             site_data[name] = json.load(open(f))
         elif typ in {"csv", "tsv"}:
-            site_data[name] = list(csv.DictReader(open(f)))
+            site_data[name] = list(csv.DictReader(open(f, encoding='utf8')))
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
