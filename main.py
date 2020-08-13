@@ -64,7 +64,7 @@ def index():
 @app.route("/index.html")
 def home():
     data = _data()
-    data["readme"] = open("README.md").read()
+    data["readme"] = open("README.md", encoding="utf-8").read()
     data["committee"] = site_data["committee"]["committee"]
     return render_template("index.html", **data)
 
