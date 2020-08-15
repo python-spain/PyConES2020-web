@@ -14,6 +14,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="stylesheet" href="static/css/variables.css" />
     <link rel="stylesheet" href="static/css/main.css" />
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
@@ -58,7 +59,7 @@
       rel="stylesheet"
     />
 
-    <title>PyConES 2020 Online: Meta-Learning with Warped Gradient Descent</title>
+    <title>PyConES 2020: Meta-Learning with Warped Gradient Descent</title>
     
 <meta name="citation_title" content="Meta-Learning with Warped Gradient Descent" />
 
@@ -75,7 +76,7 @@
 <meta name="citation_author" content="Raia Hadsell" />
 
 <meta name="citation_publication_date" content="3 de octubre de 2020" />
-<meta name="citation_conference_title" content="Pycones 2020 Online Pandemic Edition" />
+<meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="Learning an efficient update rule from data that promotes rapid learning of new tasks from the same distribution remains an open problem in meta-learning. Typically, previous works have approached this issue either by attempting to train a neural network that directly produces updates or by attempting to learn better initialisations or scaling factors for a gradient-based update rule. Both of these approaches pose challenges. On one hand, directly producing an update forgoes a useful inductive bias and can easily lead to non-converging behaviour. On the other hand, approaches that try to control a gradient-based update rule typically resort to computing gradients through the learning process to obtain their meta-gradients, leading to methods that can not scale beyond few-shot task adaptation. In this work, we propose Warped Gradient Descent (WarpGrad), a method that intersects these approaches to mitigate their limitations. WarpGrad meta-learns an efficiently parameterised preconditioning matrix that facilitates gradient descent across the task distribution. Preconditioning arises by interleaving non-linear layers, referred to as warp-layers, between the layers of a task-learner. Warp-layers are meta-learned without backpropagating through the task training process in a manner similar to methods that learn to directly produce updates. WarpGrad is computationally efficient, easy to implement, and can scale to arbitrarily large meta-learning problems. We provide a geometrical interpretation of the approach and evaluate its effectiveness in a variety of settings, including few-shot, standard supervised, continual and reinforcement learning." />
 
@@ -109,6 +110,8 @@
              width="40px"
           />
         </a>
+        
+        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -322,19 +325,17 @@
     
 
     <!-- Footer -->
-    <footer class="footer bg-light p-4">
+    <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <a href="https://es.python.org">
               <img src="static/images/logo-pyes-letras.png" style="width: 100%">
             </a>
+            <p class="text-center">© 2020 PyConES 2020 Org</p>
           </div>
         </div>
-        <div class="row">
-        </div>
-        <p class="float-right"><a href="#">Subir</a></p>
-        <p class="text-center">© 2020 PyConES 2020 Org.</p>
+        <div class="float-right"><a href="#">Subir</a></div>
       </div>
     </footer>
 

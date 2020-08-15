@@ -14,6 +14,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="stylesheet" href="static/css/variables.css" />
     <link rel="stylesheet" href="static/css/main.css" />
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
@@ -58,7 +59,7 @@
       rel="stylesheet"
     />
 
-    <title>PyConES 2020 Online: TabFact: A Large-scale Dataset for Table-based Fact Verification</title>
+    <title>PyConES 2020: TabFact: A Large-scale Dataset for Table-based Fact Verification</title>
     
 <meta name="citation_title" content="TabFact: A Large-scale Dataset for Table-based Fact Verification" />
 
@@ -79,7 +80,7 @@
 <meta name="citation_author" content="William Yang Wang" />
 
 <meta name="citation_publication_date" content="3 de octubre de 2020" />
-<meta name="citation_conference_title" content="Pycones 2020 Online Pandemic Edition" />
+<meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="The problem of verifying whether a textual hypothesis holds based on the given evidence, also known as fact verification, plays an important role in the study of natural language understanding and semantic representation. However, existing studies are mainly restricted to dealing with unstructured evidence (e.g., natural language sentences and documents, news, etc), while verification under structured evidence, such as tables, graphs, and databases, remains unexplored. This paper specifically aims to study the fact verification given semi-structured data as evidence. To this end, we construct a large-scale dataset called TabFact with 16k Wikipedia tables as the evidence for 118k human-annotated natural language statements, which are labeled as either ENTAILED or REFUTED. TabFact is challenging since it involves both soft linguistic reasoning and hard symbolic reasoning. To address these reasoning challenges, we design two different models: Table-BERT and Latent Program Algorithm (LPA). Table-BERT leverages the state-of-the-art pre-trained language model to encode the linearized tables and statements into continuous vectors for verification. LPA parses statements into LISP-like programs and executes them against the tables to obtain the returned binary value for verification. Both methods achieve similar accuracy but still lag far behind human performance. We also perform a comprehensive analysis to demonstrate great future opportunities." />
 
@@ -113,6 +114,8 @@
              width="40px"
           />
         </a>
+        
+        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -334,19 +337,17 @@
     
 
     <!-- Footer -->
-    <footer class="footer bg-light p-4">
+    <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <a href="https://es.python.org">
               <img src="static/images/logo-pyes-letras.png" style="width: 100%">
             </a>
+            <p class="text-center">© 2020 PyConES 2020 Org</p>
           </div>
         </div>
-        <div class="row">
-        </div>
-        <p class="float-right"><a href="#">Subir</a></p>
-        <p class="text-center">© 2020 PyConES 2020 Org.</p>
+        <div class="float-right"><a href="#">Subir</a></div>
       </div>
     </footer>
 

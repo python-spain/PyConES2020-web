@@ -14,6 +14,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="stylesheet" href="static/css/variables.css" />
     <link rel="stylesheet" href="static/css/main.css" />
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
@@ -58,7 +59,7 @@
       rel="stylesheet"
     />
 
-    <title>PyConES 2020 Online: Uncertainty-guided Continual Learning with Bayesian Neural Networks</title>
+    <title>PyConES 2020: Uncertainty-guided Continual Learning with Bayesian Neural Networks</title>
     
 <meta name="citation_title" content="Uncertainty-guided Continual Learning with Bayesian Neural Networks" />
 
@@ -71,7 +72,7 @@
 <meta name="citation_author" content="Marcus Rohrbach" />
 
 <meta name="citation_publication_date" content="3 de octubre de 2020" />
-<meta name="citation_conference_title" content="Pycones 2020 Online Pandemic Edition" />
+<meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="Continual learning aims to learn new tasks without forgetting previously learned ones. This is especially challenging when one cannot access data from previous tasks and when the model has a fixed capacity. Current regularization-based continual learning algorithms  need an external representation and extra computation to measure the parameters&#39; \textit{importance}. In contrast, we propose Uncertainty-guided Continual Bayesian Neural Networks (UCB), where the learning rate adapts according to the uncertainty defined in the probability distribution of the weights in  networks. Uncertainty is a natural way to identify \textit{what to remember} and \textit{what to change} as we continually learn,  and thus mitigate catastrophic forgetting. We also show a variant of our model, which uses uncertainty for weight pruning 
 and retains task performance after pruning by saving binary masks per tasks. We evaluate our UCB approach extensively on diverse object classification datasets with short and long sequences of tasks and report superior or on-par performance compared to existing approaches. Additionally, we show that our model does not necessarily need task information at test time, i.e. it does not presume knowledge of which task a sample belongs to." />
@@ -110,6 +111,8 @@ and retains task performance after pruning by saving binary masks per tasks. We 
              width="40px"
           />
         </a>
+        
+        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -328,19 +331,17 @@ and retains task performance after pruning by saving binary masks per tasks. We 
     
 
     <!-- Footer -->
-    <footer class="footer bg-light p-4">
+    <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <a href="https://es.python.org">
               <img src="static/images/logo-pyes-letras.png" style="width: 100%">
             </a>
+            <p class="text-center">© 2020 PyConES 2020 Org</p>
           </div>
         </div>
-        <div class="row">
-        </div>
-        <p class="float-right"><a href="#">Subir</a></p>
-        <p class="text-center">© 2020 PyConES 2020 Org.</p>
+        <div class="float-right"><a href="#">Subir</a></div>
       </div>
     </footer>
 

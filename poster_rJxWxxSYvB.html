@@ -14,6 +14,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="stylesheet" href="static/css/variables.css" />
     <link rel="stylesheet" href="static/css/main.css" />
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
@@ -58,7 +59,7 @@
       rel="stylesheet"
     />
 
-    <title>PyConES 2020 Online: Spike-based causal inference for weight alignment</title>
+    <title>PyConES 2020: Spike-based causal inference for weight alignment</title>
     
 <meta name="citation_title" content="Spike-based causal inference for weight alignment" />
 
@@ -69,7 +70,7 @@
 <meta name="citation_author" content="Blake Richards" />
 
 <meta name="citation_publication_date" content="3 de octubre de 2020" />
-<meta name="citation_conference_title" content="Pycones 2020 Online Pandemic Edition" />
+<meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="In artificial neural networks trained with gradient descent, the weights used for processing stimuli are also used during backward passes to calculate gradients. For the real brain to approximate gradients, gradient information would have to be propagated separately, such that one set of synaptic weights is used for processing and another set is used for backward passes. This produces the so-called &#34;weight transport problem&#34; for biological models of learning, where the backward weights used to calculate gradients need to mirror the forward weights used to process stimuli. This weight transport problem has been considered so hard that popular proposals for biological learning assume that the backward weights are simply random, as in the feedback alignment algorithm. However, such random weights do not appear to work well for large networks. Here we show how the discontinuity introduced in a spiking system can lead to a solution to this problem. The resulting algorithm is a special case of an estimator used for causal inference in econometrics, regression discontinuity design. We show empirically that this algorithm rapidly makes the backward weights approximate the forward weights. As the backward weights become correct, this improves learning performance over feedback alignment on tasks such as Fashion-MNIST and CIFAR-10. Our results demonstrate that a simple learning rule in a spiking network can allow neurons to produce the right backward connections and thus solve the weight transport problem." />
 
@@ -99,6 +100,8 @@
              width="40px"
           />
         </a>
+        
+        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -288,19 +291,17 @@
     
 
     <!-- Footer -->
-    <footer class="footer bg-light p-4">
+    <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <a href="https://es.python.org">
               <img src="static/images/logo-pyes-letras.png" style="width: 100%">
             </a>
+            <p class="text-center">© 2020 PyConES 2020 Org</p>
           </div>
         </div>
-        <div class="row">
-        </div>
-        <p class="float-right"><a href="#">Subir</a></p>
-        <p class="text-center">© 2020 PyConES 2020 Org.</p>
+        <div class="float-right"><a href="#">Subir</a></div>
       </div>
     </footer>
 

@@ -14,6 +14,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="stylesheet" href="static/css/variables.css" />
     <link rel="stylesheet" href="static/css/main.css" />
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
@@ -58,7 +59,7 @@
       rel="stylesheet"
     />
 
-    <title>PyConES 2020 Online: Empirical Bayes Transductive Meta-Learning with Synthetic Gradients</title>
+    <title>PyConES 2020: Empirical Bayes Transductive Meta-Learning with Synthetic Gradients</title>
     
 <meta name="citation_title" content="Empirical Bayes Transductive Meta-Learning with Synthetic Gradients" />
 
@@ -77,7 +78,7 @@
 <meta name="citation_author" content="Andreas Damianou" />
 
 <meta name="citation_publication_date" content="3 de octubre de 2020" />
-<meta name="citation_conference_title" content="Pycones 2020 Online Pandemic Edition" />
+<meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="We propose a meta-learning approach that learns from multiple tasks in a transductive setting, by leveraging the unlabeled query set in addition to the  support set to generate a more powerful model for each task. To develop our framework, we revisit the empirical Bayes formulation for multi-task learning.   The evidence lower bound of the marginal log-likelihood of empirical Bayes decomposes as a sum of local KL divergences between the variational posterior and the true posterior on the query set of each task.
 We derive a novel amortized variational inference that couples all the variational posteriors via a meta-model, which consists of a synthetic gradient   network and an initialization network. Each variational posterior is derived from synthetic gradient descent to approximate the true posterior on the query  set, although where we do not have access to the true gradient.
@@ -113,6 +114,8 @@ Our results on the Mini-ImageNet and CIFAR-FS benchmarks for episodic few-shot c
              width="40px"
           />
         </a>
+        
+        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -332,19 +335,17 @@ Our results on the Mini-ImageNet and CIFAR-FS benchmarks for episodic few-shot c
     
 
     <!-- Footer -->
-    <footer class="footer bg-light p-4">
+    <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <a href="https://es.python.org">
               <img src="static/images/logo-pyes-letras.png" style="width: 100%">
             </a>
+            <p class="text-center">© 2020 PyConES 2020 Org</p>
           </div>
         </div>
-        <div class="row">
-        </div>
-        <p class="float-right"><a href="#">Subir</a></p>
-        <p class="text-center">© 2020 PyConES 2020 Org.</p>
+        <div class="float-right"><a href="#">Subir</a></div>
       </div>
     </footer>
 

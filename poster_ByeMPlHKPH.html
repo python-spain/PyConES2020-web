@@ -14,6 +14,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="stylesheet" href="static/css/variables.css" />
     <link rel="stylesheet" href="static/css/main.css" />
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
@@ -58,7 +59,7 @@
       rel="stylesheet"
     />
 
-    <title>PyConES 2020 Online: Lite Transformer with Long-Short Range Attention</title>
+    <title>PyConES 2020: Lite Transformer with Long-Short Range Attention</title>
     
 <meta name="citation_title" content="Lite Transformer with Long-Short Range Attention" />
 
@@ -73,7 +74,7 @@
 <meta name="citation_author" content="Song Han" />
 
 <meta name="citation_publication_date" content="3 de octubre de 2020" />
-<meta name="citation_conference_title" content="Pycones 2020 Online Pandemic Edition" />
+<meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="Transformer has become ubiquitous in natural language processing (e.g., machine translation, question answering); however, it requires enormous amount of computations to achieve high performance, which makes it not suitable for mobile applications since mobile phones are tightly constrained by the hardware resources and battery. In this paper, we investigate the mobile setting (under 500M Mult-Adds) for NLP tasks to facilitate the deployment on the edge devices. We present Long-Short Range Attention (LSRA), where one group of heads specializes in the local context modeling (by convolution) while another group captures the long-distance relationship (by attention). Based on this primitive, we design Lite Transformer that is tailored for the mobile NLP application. Our Lite Transformer demonstrates consistent improvement over the transformer on three well-established language tasks: machine translation, abstractive summarization, and language modeling. It outperforms the transformer on WMT’14 English-French by 1.2 BLEU under 500M Mult-Adds and 1.7 BLEU under 100M Mult-Adds, and reduces the computation of transformer base model by 2.5x. Further, with general techniques, our Lite Transformer achieves 18.2x model size compression. For language modeling, our Lite Transformer also achieves 3.8 lower perplexity than the transformer around 500M Mult-Adds. Without the costly architecture search that requires more than 250 GPU years, our Lite Transformer outperforms the AutoML-based Evolved Transformer by 0.5 higher BLEU under the mobile setting. " />
 
@@ -115,6 +116,8 @@
              width="40px"
           />
         </a>
+        
+        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -348,19 +351,17 @@
     
 
     <!-- Footer -->
-    <footer class="footer bg-light p-4">
+    <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-3">
             <a href="https://es.python.org">
               <img src="static/images/logo-pyes-letras.png" style="width: 100%">
             </a>
+            <p class="text-center">© 2020 PyConES 2020 Org</p>
           </div>
         </div>
-        <div class="row">
-        </div>
-        <p class="float-right"><a href="#">Subir</a></p>
-        <p class="text-center">© 2020 PyConES 2020 Org.</p>
+        <div class="float-right"><a href="#">Subir</a></div>
       </div>
     </footer>
 
