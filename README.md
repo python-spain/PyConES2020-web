@@ -1,13 +1,13 @@
-# <a name="spanish-version"></a>¡Abierto el Call for Proposals para PyConES 2020!
+# <a name="spanish-version"></a>¡La PyConES 2020 ya casi está aquí!
 
 <center><small>
  NOTE: If you don’t speak Spanish [go to the ENGLISH version](#english-version)
 </small></center>
 
-<span id="spanish-version"></span>
-¡Nos complace anunciar que el C4P para **PyConES 2020** *(edición Online)* está abierto!
 
-Ya nos puedes enviar tus propuestas para la conferencia. Lee con atención ya que este año hay algunos cambios importantes.
+## Dónde y cuándo
+
+La octava edición de la PyConES se celebrará durante el día **3 de Octubre de 2020** como un evento en línea.
 
 
 ## Código de conducta
@@ -15,26 +15,14 @@ Ya nos puedes enviar tus propuestas para la conferencia. Lee con atención ya qu
 Queremos que la conferencia sea una experiencia agradable, acogedora y libre de acoso para todo el mundo. PyConES 2020 posee un [código de conducta](https://www.es.python.org/pages/codigo-de-conducta.html) de obligado cumplimiento para todas las personas que participen en el evento.
 
 
-## Dónde y cuándo:
-
-La octava edición de la PyConES se celebrará durante el día **3 de Octubre de 2020** como un evento en línea.
-
-
-## Hasta cuándo puedo presentar mis propuestas:
-
-Podrás presentar todas tus propuestas hasta las 23:59 del <s>**Domingo 26 de Julio de 2020**</s> <s>**Domingo 2 de Agosto de 2020**</s> **Domingo 16 de Agosto de 2020**.
-
-
-## Qué formatos se aceptan
+## Formato de las charlas
 
 Este año excepcionalmente hemos limitado las charlas a un solo formato de charla corta de 20 minutos para facilitar tanto la organización como la asistencia.
 
 Así las charlas tendrán una duración total de 20 minutos, con 15 minutos para la ponencia y 5 para preguntas del público.
 
 
-## De qué temas puedo hablar
-
-Te proponemos los siguientes temas:
+## De qué temas se hablará
 
 * **Core** - Características del lenguaje, implementaciones de Python (CPython, Pypy,...), extensión de Python y biblioteca estándar, aspectos internos del lenguaje
 
@@ -61,13 +49,15 @@ En PyConES tenemos un público con intereses muy variados así que aceptamos pro
 
 ## Cómo será el proceso de selección
 
-1. Debes rellenar el formulario de inscripción que encontrarás al final y nos tienes que mandar un enlace a un vídeo (que puede ser privado) de no más de 5 minutos con el resumen de la charla. Ten en cuenta que, si te seleccionamos, te pediremos luego que antes de la conferencia grabes y envíes un vídeo de 15’ que será emitido durante la conferencia.
+1. Las propuestas se enviarán mediante un formulario, adjuntando un vídeo resumen de la misma de no más de 5 minutos. Ten en cuenta que, si te seleccionamos, te pediremos luego que antes de la conferencia grabes y envíes un vídeo de 15’ que será emitido durante la conferencia.
 
 2. Un grupo formado por personas voluntarias de la Asociación Python España junto con el equipo organizador revisará los vídeos y hará la selección final atendiendo a criterios de interés y diversidad, pudiendo contactar contigo si surge alguna duda o fuese necesaria alguna aclaración.
 
-3. Durante el mes de agosto nos pondremos en contacto con aquellas personas que hayan resultado seleccionadas y deberán crear un vídeo de 15’ con la charla completa y enviarlo a la organización antes del **15 de septiembre.**
+3. El **25 de agosto** nos pondremos en contacto con todas las personas que hayan enviado una propuesta para comunicarles si han sido seleccionadas o no.
 
-4. La semana anterior al evento se te comunicará el slot de emisión y esperamos que estés online para contestar a los 5 minutos de preguntas post emisión.
+4. Estas personas deberán crear un vídeo de 15’ con la charla completa y enviarlo a la organización antes del **15 de septiembre.**
+
+5. La semana anterior al evento se te comunicará el slot de emisión y esperamos que estés online para contestar a los 5 minutos de preguntas post emisión.
 
 
 ## Otras consideraciones
@@ -99,25 +89,13 @@ Escríbenos a: **[contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)**
 
 Si aún no te hemos animado lo suficiente, puedes visitar [We Are All Awesome](http://weareallaweso.me/) donde encontrarás más razones para convencerte.
 
-<center>
-## [ACCEDE AL FORMULARIO ](https://forms.gle/ALzXkXhBRDV55D3d6)
-</center>
 
 <hr style="margin-bottom: 50px">
 
-# <a name="english-version"></a>PyConES 2020 Call for Proposals is open!!!
+# <a name="english-version"></a>PyConES 2020 is almost here!!!
 <center><small>
-NOTE: Si hablas español, puedes [ir a la versión es ESPAÑOL](#spanish-version)
+NOTE: Si hablas español, puedes [ir a la versión en ESPAÑOL](#spanish-version)
 </small></center>
-
-We are pleased to announce that the C4P for **PyConES 2020** *(Online version)* is open!
-
-Now you can send us your proposals for the PyConES 2020 conference and this year we will have some important changes!
-
-
-## Code of Conduct
-
-We want to have a welcoming and pleasant conference, with a harassment-free experience for everyone. PyConES 2020 has a mandatory [code of conduct](https://es.python.org/pages/codigo-de-conducta.html) for all people participating in the event.
 
 
 ## Where and when
@@ -125,9 +103,9 @@ We want to have a welcoming and pleasant conference, with a harassment-free expe
 The eighth edition of PyConES will be held on **October 3rd, 2020** as an online event.
 
 
-## What is the deadline to submit my proposal
+## Code of Conduct
 
-You can submit all your proposals until 23:59 on <s>**Sunday, July 26, 2020**</s> <s>**Sunday, August 2, 2020**</s> **Sunday, August 16, 2020**.
+We want to have a welcoming and pleasant conference, with a harassment-free experience for everyone. PyConES 2020 has a mandatory [code of conduct](https://es.python.org/pages/codigo-de-conducta.html) for all people participating in the event.
 
 
 ## Type of sessions available
@@ -137,9 +115,7 @@ As per the current situation this year we’re changing the format and limiting 
 So, you’ll have a 20 minutes slot divided in 15 minutes for the talk and 5 minutes for questions from the attendees.
 
 
-## What can I talk about
-
-We’d like to propose the following topics:
+## Which topics will be covered
 
 * **Core Python** - Language Features, Python Implementations, Extending Python and Standard Library, language internals.
 
@@ -166,13 +142,15 @@ At PyConES we have an audience with different backgrounds and diverse interests.
 
 ## How will the selection process be?
 
-1. You have fill out the form that you will find at the end and send us a link to a video of no more than 5 minutes with the talk’s summary. Please note that if you’re selected we’ll ask you to record a 15’ video that will be broadcasted during the event.
+1. The proposals will be submitted using a form, with a link to a video of no more than 5 minutes with the talk’s summary. Please note that if you’re selected we’ll ask you to record a 15’ video that will be broadcasted during the event.
 
 2. A group of volunteers and organizers of Python España will check the videos and will make the final selection, attending interest and diversity criteria. They can contact you if some question arises or some clarification is needed.
 
-3. During August we’ll contact the selected speakers so they need to create a 15’ video with the complete talk and send it to the organization before **September 15th.**
+3. On **August 25th** we will contact everyone who submitted a proposal to tell them if they were selected or not.
 
-4. The week before the event we will tell you the emission slot, so you can be online to answer the question live during the 5’ after the emission.
+4. The selected speakers will need to create a 15’ video with the complete talk and send it to the organization before **September 15th.**
+
+5. The week before the event we will tell you the emission slot, so you can be online to answer the question live during the 5’ after the emission.
 
 
 ## Other considerations
@@ -202,7 +180,3 @@ You can contact us for anything you need.
 Write to us at: **[contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)**
 
 If you are not still convinced, please visit [We Are All Awesome](http://weareallaweso.me/) where you can find more reasons about why you should submit your proposal.
-
-<center>
-## [ACCESS THE FORM](https://forms.gle/zXzaZ9VHbwfzwWabA)
-</center>
