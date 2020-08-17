@@ -60,35 +60,9 @@ En PyConES tenemos un público con intereses muy variados así que aceptamos pro
 5. La semana anterior al evento se te comunicará el slot de emisión y esperamos que estés online para contestar a los 5 minutos de preguntas post emisión.
 
 
-## Otras consideraciones
+## Contáctanos
 
-* Recuerda que durante el proceso de evaluación de las propuestas quizás contactemos contigo para hacerte algunas preguntas adicionales.
-* Puedes enviar varias propuestas.
-* Las propuestas puedes hacerlas individualmente o en grupo.
-* Tanto si seleccionamos tu propuesta como si no, te enviaremos una notificación.
-
-
-Si tienes alguna duda o requisito especial, puedes escribirnos a **[contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)**
-
-
-## Queremos ayudarte
-
-Una de las metas de la comunidad Python consiste en fomentar la diversidad. Por ello, desde la organización, queremos mejorar la participación de grupos infrarrepresentados o que este sea el evento donde des tu primera charla.
-
-Hay un millón de razones por las que puedes sentir que no tienes el conocimiento. experiencia o preparación necesarias para enviarnos una propuesta, pero ¡estamos aquí para demostrarte que te equivocas! Desde la organización queremos ayudarte a desarrollar y perfeccionar las habilidades que crees que te faltan para dar una charla estupenda.
-
-* Estaremos encantadas de reunirnos contigo para hablar sobre tus intereses y darle forma a un tema concreto sobre el que hablar o preparar un taller.
-* Podemos aconsejarte sobre cómo preparar las slides (y ayudarte a hacerlo).
-* Podemos aconsejarte sobre cómo preparar el vídeo de la propuesta o sobre cómo editarlo.
-* Si necesitas practicar la charla podemos reunir a un grupo de personas de confianza para que puedas hablar delante de una multitud amigable y que te den feedback.
-* O ponerte en contacto con alguien con experiencia en el tema que pueda ayudarte a preparar tu propuesta o a darla junto a ti.
-
-Puedes contactarnos para cualquier cosa que necesites.
-
-Escríbenos a: **[contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)**
-
-Si aún no te hemos animado lo suficiente, puedes visitar [We Are All Awesome](http://weareallaweso.me/) donde encontrarás más razones para convencerte.
-
+Si tienes alguna duda, puedes escribirnos a **[contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)**
 
 <hr style="margin-bottom: 50px">
 
@@ -153,30 +127,6 @@ At PyConES we have an audience with different backgrounds and diverse interests.
 5. The week before the event we will tell you the emission slot, so you can be online to answer the question live during the 5’ after the emission.
 
 
-## Other considerations
+## Contact us
 
-* Remember that during the evaluation process we may contact you to ask for more information about your proposal.
-* You can send all the proposals you want.
-* The proposals can be individual or in a group.
-* Whether we select your proposal or not, we will send you a notification.
-
-If you have any questions or special requirements, you can write to us at **[contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)**
-
-
-## We want to help you
-
-One of the goals of the Python community is to promote diversity. So, from the organization, we want to improve the participation of underrepresented groups and we also want to be the event where you give your first talk.
-
-There are a million reasons why you may feel that you don't have the knowledge or experience required to send us a proposal, but we are here to prove you are wrong! From the organization we want to help you so you can give a great talk.
-
-* We are happy to meet with you to talk about your interests and advise you on a specific topic for your proposal, either talk or workshop.
-* We can advise on how to prepare the slides and help you with it.
-* We can advise on how to prepare the video for the proposal and how to edit it.
-* If you need to practice the talk, we can gather a group of trusted people so you can talk in front of a friendly crowd and they give you feedback.
-* Or we can contact someone with experience in the subject, to help you to prepare your proposal or participate with you.
-
-You can contact us for anything you need.
-
-Write to us at: **[contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)**
-
-If you are not still convinced, please visit [We Are All Awesome](http://weareallaweso.me/) where you can find more reasons about why you should submit your proposal.
+If you have any questions, you can write to us at **[contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)**
