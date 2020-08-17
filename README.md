@@ -55,7 +55,7 @@ En PyConES tenemos un público con intereses muy variados así que aceptamos pro
 
 3. El **25 de agosto** nos pondremos en contacto con todas las personas que hayan enviado una propuesta para comunicarles si han sido seleccionadas o no.
 
-4. Estas personas deberán crear un vídeo de 15’ con la charla completa y enviarlo a la organización antes del **15 de septiembre.**
+4. Estas personas deberán crear un vídeo de 15’ con la charla completa y enviarlo a la organización antes del **20 de septiembre.**
 
 5. La semana anterior al evento se te comunicará el slot de emisión y esperamos que estés online para contestar a los 5 minutos de preguntas post emisión.
 
@@ -122,7 +122,7 @@ At PyConES we have an audience with different backgrounds and diverse interests.
 
 3. On **August 25th** we will contact everyone who submitted a proposal to tell them if they were selected or not.
 
-4. The selected speakers will need to create a 15’ video with the complete talk and send it to the organization before **September 15th.**
+4. The selected speakers will need to create a 15’ video with the complete talk and send it to the organization before **September 20th.**
 
 5. The week before the event we will tell you the emission slot, so you can be online to answer the question live during the 5’ after the emission.
 
