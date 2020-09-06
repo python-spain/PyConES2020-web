@@ -69,6 +69,13 @@ def home():
     return render_template("index.html", **data)
 
 
+@app.route("/pyladies.html")
+def pyladies():
+    data = _data()
+    data["readme"] = open(os.path.join("content", "pyladies.md"), encoding="utf-8").read()
+    return render_template("pyladies.html", **data)
+
+
 @app.route("/about.html")
 def about():
     data = _data()

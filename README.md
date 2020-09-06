@@ -7,7 +7,7 @@
 
 ## Dónde y cuándo
 
-La octava edición de la PyConES se celebrará durante el día **3 de Octubre de 2020** como un evento en línea.
+La octava edición de la PyConES se celebrará durante el día **3 de Octubre de 2020** como un evento en línea. También habrá un [taller de Django con Pyladies](/pyladies.html) la tarde del 2 de octubre.
 
 
 ## Código de conducta
@@ -74,7 +74,7 @@ NOTE: Si hablas español, puedes [ir a la versión en ESPAÑOL](#spanish-version
 
 ## Where and when
 
-The eighth edition of PyConES will be held on **October 3rd, 2020** as an online event.
+The eighth edition of PyConES will be held on **October 3rd, 2020** as an online event. There will be as well a [Django workshop with Pyladies](/pyladies.html) on October 2nd, in the afternoon.
 
 
 ## Code of Conduct
