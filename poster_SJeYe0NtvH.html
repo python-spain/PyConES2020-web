@@ -75,7 +75,7 @@
 
 <meta name="citation_author" content="Jason Weston" />
 
-<meta name="citation_publication_date" content="3 de octubre de 2020" />
+<meta name="citation_publication_date" content="2 y 3 de octubre de 2020" />
 <meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="Neural text generation is a key tool in natural language applications, but it is well known there are major problems at its core. In particular, standard likelihood training and decoding leads to dull and repetitive outputs. While some post-hoc fixes have been proposed, in particular top-k and nucleus sampling, they do not address the fact that the token-level probabilities predicted by the model are poor. In this paper we show that the likelihood objective itself is at fault, resulting in a model that assigns too much probability to sequences containing repeats and frequent words, unlike those from the human training distribution. We propose a new objective, unlikelihood training, which forces unlikely generations to be assigned lower probability by the model. We show that both token and sequence level unlikelihood training give less repetitive, less dull text while maintaining perplexity, giving superior generations using standard greedy or beam search. According to human evaluations, our approach with standard beam search also outperforms the currently popular decoding methods of nucleus sampling or beam blocking, thus providing a strong alternative to existing techniques." />
@@ -103,13 +103,11 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
-             class="logo" src="static/images/logo-pyes.png"
+             class="logo" src="static/images/logo-pycones2020.png"
              height="auto"
-             width="40px"
+             width="200px"
           />
         </a>
-        
-        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -324,14 +322,17 @@
     <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-sm-3">
-            <a href="https://es.python.org">
-              <img src="static/images/logo-pyes-letras.png" style="width: 100%">
-            </a>
-            <p class="text-center">© 2020 PyConES 2020 Org</p>
+          <div class="col-sm-5">
+            <p class="text-center">
+              © 2020
+              <a href="https://es.python.org">
+                <img class="footer-logo-pyes" src="static/images/logo-pyes.png" >
+              </a>
+              Python España &amp; PyConES 2020 Org
+            </p>
           </div>
         </div>
-        <div class="float-right"><a href="#">Subir</a></div>
+        
       </div>
     </footer>
 

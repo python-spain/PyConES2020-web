@@ -83,7 +83,7 @@
 
 <meta name="citation_author" content="Cho-Jui Hsieh" />
 
-<meta name="citation_publication_date" content="3 de octubre de 2020" />
+<meta name="citation_publication_date" content="2 y 3 de octubre de 2020" />
 <meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="Training large deep neural networks on massive datasets is  computationally very challenging. There has been recent surge in interest in using large batch stochastic optimization methods to tackle this issue. The most prominent algorithm in this line of research is LARS, which by  employing layerwise adaptive learning rates trains ResNet on ImageNet in a few minutes. However, LARS performs poorly for attention models like BERT, indicating that its performance gains are not consistent across tasks. In this paper, we first study a principled layerwise adaptation strategy to accelerate training of deep neural networks using large mini-batches. Using this strategy, we develop a new layerwise adaptive large batch optimization technique called LAMB; we then provide convergence analysis of LAMB as well as LARS, showing convergence to a stationary point in general nonconvex settings. Our empirical results demonstrate the superior performance of LAMB across various tasks such as BERT and ResNet-50 training with very little hyperparameter tuning. In particular, for BERT training, our optimizer enables use of very large batch sizes of 32868 without any degradation of performance.  By increasing the batch size to the memory limit of a TPUv3 Pod, BERT training time can be reduced from 3 days to just 76 minutes." />
@@ -115,13 +115,11 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
-             class="logo" src="static/images/logo-pyes.png"
+             class="logo" src="static/images/logo-pycones2020.png"
              height="auto"
-             width="40px"
+             width="200px"
           />
         </a>
-        
-        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -364,14 +362,17 @@
     <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-sm-3">
-            <a href="https://es.python.org">
-              <img src="static/images/logo-pyes-letras.png" style="width: 100%">
-            </a>
-            <p class="text-center">© 2020 PyConES 2020 Org</p>
+          <div class="col-sm-5">
+            <p class="text-center">
+              © 2020
+              <a href="https://es.python.org">
+                <img class="footer-logo-pyes" src="static/images/logo-pyes.png" >
+              </a>
+              Python España &amp; PyConES 2020 Org
+            </p>
           </div>
         </div>
-        <div class="float-right"><a href="#">Subir</a></div>
+        
       </div>
     </footer>
 

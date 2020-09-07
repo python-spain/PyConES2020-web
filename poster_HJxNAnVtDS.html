@@ -73,7 +73,7 @@
 
 <meta name="citation_author" content="Zhihua Zhang" />
 
-<meta name="citation_publication_date" content="3 de octubre de 2020" />
+<meta name="citation_publication_date" content="2 y 3 de octubre de 2020" />
 <meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="Federated learning enables a large amount of edge computing devices to jointly learn a model without data sharing. As a leading algorithm in this setting, Federated Averaging (\texttt{FedAvg}) runs Stochastic Gradient Descent (SGD) in parallel on a small subset of the total devices and averages the sequences only once in a while. Despite its simplicity, it lacks theoretical guarantees under realistic settings. In this paper, we analyze the convergence of \texttt{FedAvg} on non-iid data and establish a convergence rate of $\mathcal{O}(\frac{1}{T})$ for strongly convex and smooth problems, where $T$ is the number of SGDs. Importantly, our bound demonstrates a trade-off between communication-efficiency and convergence rate. As user devices may be disconnected from the server, we relax the assumption of full device participation to partial device participation and study different averaging schemes; low device participation rate can be achieved without severely slowing down the learning.  Our results indicate that heterogeneity of data slows down the convergence, which matches empirical observations. Furthermore, we provide a necessary condition for \texttt{FedAvg} on non-iid data: the learning rate $\eta$ must decay, even if full-gradient is used; otherwise, the solution will be $\Omega (\eta)$ away from the optimal." />
@@ -101,13 +101,11 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
-             class="logo" src="static/images/logo-pyes.png"
+             class="logo" src="static/images/logo-pycones2020.png"
              height="auto"
-             width="40px"
+             width="200px"
           />
         </a>
-        
-        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -318,14 +316,17 @@
     <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-sm-3">
-            <a href="https://es.python.org">
-              <img src="static/images/logo-pyes-letras.png" style="width: 100%">
-            </a>
-            <p class="text-center">© 2020 PyConES 2020 Org</p>
+          <div class="col-sm-5">
+            <p class="text-center">
+              © 2020
+              <a href="https://es.python.org">
+                <img class="footer-logo-pyes" src="static/images/logo-pyes.png" >
+              </a>
+              Python España &amp; PyConES 2020 Org
+            </p>
           </div>
         </div>
-        <div class="float-right"><a href="#">Subir</a></div>
+        
       </div>
     </footer>
 

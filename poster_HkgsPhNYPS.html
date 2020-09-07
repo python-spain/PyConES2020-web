@@ -75,7 +75,7 @@
 
 <meta name="citation_author" content="Thomas Brox" />
 
-<meta name="citation_publication_date" content="3 de octubre de 2020" />
+<meta name="citation_publication_date" content="2 y 3 de octubre de 2020" />
 <meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="Deep neural networks (DNNs) have been shown to over-fit a dataset when being trained with noisy labels for a long enough time. To overcome this problem, we present a simple and effective method self-ensemble label filtering (SELF) to progressively filter out the wrong labels during training. Our method improves the task performance by gradually allowing supervision only from the potentially non-noisy (clean) labels and stops learning on the filtered noisy labels. For the filtering, we form running averages of predictions over the entire training dataset using the network output at different training epochs. We show that these ensemble estimates yield more accurate identification of inconsistent predictions throughout training than the single estimates of the network at the most recent training epoch. While filtered samples are removed entirely from the supervised training loss, we dynamically leverage them via semi-supervised learning in the unsupervised loss. We demonstrate the positive effect of such an approach on various image classification tasks under both symmetric and asymmetric label noise and at different noise ratios. It substantially outperforms all previous works on noise-aware learning across different datasets and can be applied to a broad set of network architectures." />
@@ -105,13 +105,11 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
-             class="logo" src="static/images/logo-pyes.png"
+             class="logo" src="static/images/logo-pycones2020.png"
              height="auto"
-             width="40px"
+             width="200px"
           />
         </a>
-        
-        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -332,14 +330,17 @@
     <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-sm-3">
-            <a href="https://es.python.org">
-              <img src="static/images/logo-pyes-letras.png" style="width: 100%">
-            </a>
-            <p class="text-center">© 2020 PyConES 2020 Org</p>
+          <div class="col-sm-5">
+            <p class="text-center">
+              © 2020
+              <a href="https://es.python.org">
+                <img class="footer-logo-pyes" src="static/images/logo-pyes.png" >
+              </a>
+              Python España &amp; PyConES 2020 Org
+            </p>
           </div>
         </div>
-        <div class="float-right"><a href="#">Subir</a></div>
+        
       </div>
     </footer>
 

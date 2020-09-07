@@ -75,7 +75,7 @@
 
 <meta name="citation_author" content="Martha White" />
 
-<meta name="citation_publication_date" content="3 de octubre de 2020" />
+<meta name="citation_publication_date" content="2 y 3 de octubre de 2020" />
 <meta name="citation_conference_title" content="Pycones 2020pandemic Edition" />
 <meta name="citation_inbook_title" content="" />
 <meta name="citation_abstract" content="Recurrent neural networks (RNNs) allow an agent to construct a state-representation from a stream of experience, which is essential in partially observable problems. However, there are two primary issues one must overcome when training an RNN: the sensitivity of the learning algorithm&#39;s performance to truncation length and and long training times. There are variety of strategies to improve training in RNNs, the mostly notably Backprop Through Time (BPTT) and by Real-Time Recurrent Learning. These strategies, however, are typically computationally expensive and focus computation on computing gradients back in time. In this work, we reformulate the RNN training objective to explicitly learn state vectors; this breaks the dependence across time and so avoids the need to estimate gradients far back in time. We show that for a fixed buffer of data, our algorithm---called Fixed Point Propagation (FPP)---is sound: it converges to a stationary point of the new objective. We investigate the empirical performance of our online FPP algorithm, particularly in terms of computation compared to truncated BPTT with varying truncation levels. " />
@@ -101,13 +101,11 @@
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
-             class="logo" src="static/images/logo-pyes.png"
+             class="logo" src="static/images/logo-pycones2020.png"
              height="auto"
-             width="40px"
+             width="200px"
           />
         </a>
-        
-        <a class="navbar-brand" href="index.html">PyConES 2020</a>
         
         <button
           class="navbar-toggler"
@@ -316,14 +314,17 @@
     <footer class="footer bg-light p-5 mt-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-sm-3">
-            <a href="https://es.python.org">
-              <img src="static/images/logo-pyes-letras.png" style="width: 100%">
-            </a>
-            <p class="text-center">© 2020 PyConES 2020 Org</p>
+          <div class="col-sm-5">
+            <p class="text-center">
+              © 2020
+              <a href="https://es.python.org">
+                <img class="footer-logo-pyes" src="static/images/logo-pyes.png" >
+              </a>
+              Python España &amp; PyConES 2020 Org
+            </p>
           </div>
         </div>
-        <div class="float-right"><a href="#">Subir</a></div>
+        
       </div>
     </footer>
 

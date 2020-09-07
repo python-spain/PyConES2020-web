@@ -2,21 +2,27 @@
   /**********************************
    * COLORS
    **********************************/
+
   /* Core */
   --color-black: #000;
   --color-white: #fff;
 
-  /* Primary */
-  --color-primary700: #c99e2a;
-  --color-primary500: #f0c635;
-  --color-primary300: #f5d646;
-  --color-primary100: #fcf061;
+  --color-background: #fafaf6;
+  --color-primary500: #73bc64;
+  --color-primary700: #508346;
+  --color-secondary400: #2e88e1;
 
-  /* Secondary */
-  --color-secondary700: #c60e0e;
-  --color-secondary500: #e31212;
-  --color-secondary300: #ee5747;
-  --color-secondary100: #f99c7c;
+  /* Yellow */
+  --color-yellow700: #c99e2a;
+  --color-yellow500: #f0c635;
+  --color-yellow300: #f5d646;
+  --color-yellow100: #fcf061;
+
+  /* Red */
+  --color-red700: #c60e0e;
+  --color-red500: #e31212;
+  --color-red300: #ee5747;
+  --color-red100: #f99c7c;
 
   /* Orange */
   --color-orange700: #c35a0e;
