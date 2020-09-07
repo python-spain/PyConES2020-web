@@ -12,8 +12,8 @@ No necesitas tener conocimientos técnicos previos, el taller está pensado para
 
 El evento es totalmente gratuito.
 
-**[Inscríbete en este formulario](https://docs.google.com/forms/d/1K4_IiLg0rRGsMxU6ZbOLcsgema5qt6PsP_1FKCnQClQ)**. El plazo para inscribirse cierra el 20 de septiembre.
+**[Inscríbete en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfsfAn4wfgxDvTE1iTEHGu2hrKKp9vQOfvMYltb0aqZ-P4-MA/viewform)**. El plazo para inscribirse cierra el 20 de septiembre.
 
-¿Tienes experiencia programando con python y quieres mentorizar a nuestras estudiantes? **[Apúntate como mentora en este formulario](https://docs.google.com/forms/d/1gT5qtnDVWkhqdINRZ0oGakL1GG3IlCPXbUn3lxQHuEk)**. El plazo para inscribirse cierra el 20 de septiembre.
+¿Tienes experiencia programando con python y quieres mentorizar a nuestras estudiantes? **[Apúntate como mentora en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSeK1FfdDCEemgz3LW3cEJoqr52et_0-8VUMs4hSDVDu4vzaqg/viewform)**. El plazo para inscribirse cierra el 20 de septiembre.
 
 Si tienes alguna pregunta, escríbenos a [pyladies@2020.es.pycon.org](mailto:pyladies@2020.es.pycon.org).
