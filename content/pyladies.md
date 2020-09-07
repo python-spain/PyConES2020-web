@@ -6,20 +6,36 @@ Será el **viernes 2 de Octubre de 16:00 a 20:00** a través de la plataforma Di
 
 Creemos que la industria IT se beneficiará enormemente con la incorporación de más mujeres, por eso, queremos darte la oportunidad de aprender a programar y convertirte en una de nosotras: ¡mujeres programadoras!
 
+## Quiero apuntarme al evento:
+
 Si sientes curiosidad por la programación web y dispones de un ordenador portátil y conexión a internet, puedes apuntarte al evento. No necesitas tener conocimientos técnicos previos, el taller está pensado para iniciarse en la programación web desde cero.
 
 ¡Solo necesitas ganas de aprender y de pasarlo bien!
 
 El evento es totalmente gratuito.
 
-**[Inscríbete en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSfsfAn4wfgxDvTE1iTEHGu2hrKKp9vQOfvMYltb0aqZ-P4-MA/viewform)**. El plazo para inscribirse cierra el 20 de septiembre.
+<div class="text-center my-5">
+<a class="btn btn-lg py-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfsfAn4wfgxDvTE1iTEHGu2hrKKp9vQOfvMYltb0aqZ-P4-MA/viewform" target="_black">Inscríbete como alumna en este formulario</a>
+</div>
 
-¿Tienes experiencia programando con python y quieres mentorizar a nuestras estudiantes? **[Apúntate como mentora en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSeK1FfdDCEemgz3LW3cEJoqr52et_0-8VUMs4hSDVDu4vzaqg/viewform)**. El plazo para inscribirse cierra el 20 de septiembre.
+El plazo para inscribirse cierra el 20 de septiembre.
+
+## Quiero mentorizar
+
+¿Tienes experiencia programando con python y quieres mentorizar a nuestras estudiantes?
+
+<div class="text-center my-5">
+<a class="btn btn-lg py-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeK1FfdDCEemgz3LW3cEJoqr52et_0-8VUMs4hSDVDu4vzaqg/viewform" target="_black">Apúntate como mentora en este formulario</a>
+</div>
+
+El plazo para inscribirse cierra el 20 de septiembre.
+
+## ¿Tienes dudas?
 
 Si tienes alguna pregunta, escríbenos a [pyladies@2020.es.pycon.org](mailto:pyladies@2020.es.pycon.org).
 
 
-#### Organiza
+## Organiza
 
 <div style="display: flex; flex-wrap: wrap;">
     <a href="https://twitter.com/yeswetech_org/">
