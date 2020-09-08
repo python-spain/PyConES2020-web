@@ -40,7 +40,7 @@ El plazo para inscribirse cierra el 20 de septiembre.
 
 - **¿Necesito saber algo sobre páginas web o programación?** *¡No! El taller es para principiantes, por lo que no necesitas saber nada de antemano. De igual forma, si ya tienes algún pequeño conocimiento técnico (como HTML o CSS), ¡también puedes registrarte!*
 
-- **¿Necesito tener algo instalado en mi portátil?** *¡No! El taller es para principiantes, por lo que no necesitas saber nada de antemano. De igual forma, si ya tienes algún pequeño conocimiento técnico (como HTML o CSS), ¡también puedes registrarte!*
+- **¿Necesito tener algo instalado en mi portátil?** *Sí. Lo ideal es que vengas al taller con Django ya instalado, pero no esperamos que lo hagas sin ayuda. Nos aseguraremos de que alguno de los tutores te guíe en esta tarea antes del evento.*
 
 - **No soy mujer, ¿podría asistir?** *Sí. Pero recuerda que esta iniciativa tiene como objetivo acercar a más mujeres a la tecnología, y como tal, tendrán prioridad en las inscripciones.*
 
