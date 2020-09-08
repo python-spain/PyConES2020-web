@@ -1,14 +1,3 @@
-body a {
-  color: var(--color-primary500);
-  font-weight: bold;
-}
-
-body a:hover {
-  color: var(--color-primary700);
-  font-weight: bold;
-  text-decoration: none;
-}
-
 h2,
 h3 {
   font-family: "Lato";
@@ -300,4 +289,34 @@ body .carousel-control-prev {
 .footer-logo-pyes {
   margin: 0 3.rem;
   width: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2.2rem !important;
+}
+
+body a {
+  color: var(--color-primary500);
+  font-weight: bold;
+}
+
+body a:hover {
+  color: var(--color-primary700);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+body .py-btn {
+  background: var(--color-primary500);
+  color: var(--color-white);
+  border-color: var(--color-primary500);
+  font-weight: bold;
+}
+
+body .py-btn:hover {
+  background: var(--color-primary700);
+  color: var(--color-white);
+  border-color: var(--color-primary700);
+  font-weight: bold;
 }
