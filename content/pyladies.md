@@ -19,7 +19,7 @@ El evento es totalmente gratuito.
 Aunque no hay problemas de espacio, el número de plazas final estará limitado por la cantidad de mentoras y mentores que se apunten. Por tanto, haberte inscrito no garantiza que tengas plaza. **Te escribiremos una semana antes para confirmar tu asistencia y necesitaremos que re-confirmes, así que no olvides revisar tu bandeja de correo**.
 
 <div class="text-center my-5">
-<a class="btn btn-lg py-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfsfAn4wfgxDvTE1iTEHGu2hrKKp9vQOfvMYltb0aqZ-P4-MA/viewform" target="_black">Solicita plaza como alumna en este formulario</a>
+<a class="btn btn-lg py-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfsfAn4wfgxDvTE1iTEHGu2hrKKp9vQOfvMYltb0aqZ-P4-MA/viewform" target="_blank">Solicita plaza como alumna en este formulario</a>
 </div>
 
 El plazo para inscribirse cierra el 20 de septiembre.
@@ -29,7 +29,7 @@ El plazo para inscribirse cierra el 20 de septiembre.
 ¿Tienes experiencia programando con python y quieres mentorizar a nuestras estudiantes?
 
 <div class="text-center my-5">
-<a class="btn btn-lg py-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeK1FfdDCEemgz3LW3cEJoqr52et_0-8VUMs4hSDVDu4vzaqg/viewform" target="_black">Apúntate como mentora o mentor en este formulario</a>
+<a class="btn btn-lg py-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeK1FfdDCEemgz3LW3cEJoqr52et_0-8VUMs4hSDVDu4vzaqg/viewform" target="_blank">Apúntate como mentora o mentor en este formulario</a>
 </div>
 
 Te asignaremos un pequeño grupo de alumnas y tu labor será guiarlas y ayudar con las dudas que les puedan surgir mientras siguen el tutorial de django. Puedes revisar el [manual de mentorización de Django Girls](https://coach.djangogirls.org/) para hacerte una idea, aunque habrá cosas que adaptaremos al formato remoto. Te escribiremos con más detalles una vez te hayas apuntado.
