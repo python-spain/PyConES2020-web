@@ -12,7 +12,7 @@ site_title: PyConES 2020
 page_title:
   prefix: PyConES 2020
   separator: ': '
-background_image: static/images/main.jpg
+background_image: static/images/main.png
 organization: Python España & PyConES 2020 Org
 
 # Remove or change to your chat server.
@@ -31,7 +31,9 @@ organization: Python España & PyConES 2020 Org
 
 calendar:
   colors: #  Colors for the different event hashtags:
-    ---: '#bed972'
-    qa: '#4FCAEB'
-    talk: '#ccc'
-  sunday_saturday: false  #  Include Sunday and Saturday
+    org: '#b9b9b9'
+    talk: '#2e88e1'
+    workshop: '#eb9134'
+    community: '#73bc64'
+    assembly: '#f0c635'
+  sunday_saturday: true  #  Include Sunday and Saturday

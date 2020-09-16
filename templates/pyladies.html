@@ -1,7 +1,9 @@
-{% set active_page = "Taller Pyladies" %}
+{% set active_page = "Taller PyLadies" %}
 {% extends "base.html" %}
 
 {% block content %}
+
+{{ components.section("Taller de Django con PyLadies") }}
 
 {{ readme | markdown }}
 

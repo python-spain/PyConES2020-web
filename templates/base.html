@@ -72,11 +72,16 @@
     {% block header %}
     {% set navigation_bar = [
       ('index.html', 'Inicio'),
+      ('index.html#agenda', 'Agenda'),
       ('pyladies.html', 'Taller PyLadies'),
+      ('speakers.html', 'Speakers'),
+      ('faqs.html', 'FAQs'),
+      ('index.html#contáctanos', 'Contáctanos'),
+      ('coc.html', 'CoC'),
     ] -%}
 
     <nav
-      class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+      class="navbar sticky-top navbar-expand-lg navbar-light mr-auto py-bg"
       id="main-nav"
     >
       <div class="container">
@@ -153,7 +158,7 @@
     {% endif %}
 
     <!-- Footer -->
-    <footer class="footer bg-light p-5 mt-5">
+    <footer class="footer p-5 mt-5 py-bg">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-5">

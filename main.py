@@ -28,7 +28,8 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["papers", "speakers", "workshops"]:
+    #for typ in ["papers", "speakers", "workshops"]:
+    for typ in ("speakers",):
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
@@ -64,9 +65,19 @@ def index():
 @app.route("/index.html")
 def home():
     data = _data()
-    data["readme"] = open("README.md", encoding="utf-8").read()
-    data["committee"] = site_data["committee"]["committee"]
+    data["about"] = open(os.path.join("content", "about.md"), encoding="utf-8").read()
+    data["day1"] = site_data["agenda_day1"]
+    data["day2"] = site_data["agenda_day2"]
+    data["contact"] = open(os.path.join("content", "contact.md"), encoding="utf-8").read()
+    #data["committee"] = site_data["committee"]["committee"]
     return render_template("index.html", **data)
+
+
+@app.route("/speakers.html")
+def speakers():
+    data = _data()
+    data["speakers"] = site_data["speakers"]
+    return render_template("speakers.html", **data)
 
 
 @app.route("/pyladies.html")
@@ -76,45 +87,50 @@ def pyladies():
     return render_template("pyladies.html", **data)
 
 
-@app.route("/about.html")
-def about():
+@app.route("/coc.html")
+def coc():
+    data = _data()
+    data["readme"] = open(os.path.join("content", "coc.md"), encoding="utf-8").read()
+    return render_template("coc.html", **data)
+
+@app.route("/faqs.html")
+def faqs():
     data = _data()
     data["FAQ"] = site_data["faq"]["FAQ"]
-    return render_template("about.html", **data)
+    return render_template("faqs.html", **data)
 
 
-@app.route("/papers.html")
-def papers():
-    data = _data()
-    data["papers"] = site_data["papers"]
-    return render_template("papers.html", **data)
+#@app.route("/papers.html")
+#def papers():
+#    data = _data()
+#    data["papers"] = site_data["papers"]
+#    return render_template("papers.html", **data)
 
 
-@app.route("/paper_vis.html")
-def paper_vis():
-    data = _data()
-    return render_template("papers_vis.html", **data)
+#@app.route("/paper_vis.html")
+#def paper_vis():
+#    data = _data()
+#    return render_template("papers_vis.html", **data)
 
 
-@app.route("/calendar.html")
-def schedule():
-    data = _data()
-    data["day"] = {
-        "speakers": site_data["speakers"],
-        "highlighted": [
-            format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
-        ],
-    }
-    return render_template("schedule.html", **data)
+#@app.route("/calendar.html")
+#def schedule():
+#    data = _data()
+#    data["day"] = {
+#        "speakers": site_data["speakers"],
+#        "highlighted": [
+#            format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
+#        ],
+#    }
+#    return render_template("schedule.html", **data)
 
-
-@app.route("/workshops.html")
-def workshops():
-    data = _data()
-    data["workshops"] = [
-        format_workshop(workshop) for workshop in site_data["workshops"]
-    ]
-    return render_template("workshops.html", **data)
+#@app.route("/workshops.html")
+#def workshops():
+#    data = _data()
+#    data["workshops"] = [
+#        format_workshop(workshop) for workshop in site_data["workshops"]
+#    ]
+#    return render_template("workshops.html", **data)
 
 
 def extract_list_field(v, key):
@@ -125,52 +141,52 @@ def extract_list_field(v, key):
         return value.split("|")
 
 
-def format_paper(v):
-    list_keys = ["authors", "keywords", "session"]
-    list_fields = {}
-    for key in list_keys:
-        list_fields[key] = extract_list_field(v, key)
+#def format_paper(v):
+#    list_keys = ["authors", "keywords", "session"]
+#    list_fields = {}
+#    for key in list_keys:
+#        list_fields[key] = extract_list_field(v, key)
+#
+#    return {
+#        "id": v["UID"],
+#        "forum": v["UID"],
+#        "content": {
+#            "title": v["title"],
+#            "authors": list_fields["authors"],
+#            "keywords": list_fields["keywords"],
+#            "abstract": v["abstract"],
+#            "TLDR": v["abstract"],
+#            "recs": [],
+#            "session": list_fields["session"],
+#            "pdf_url": v.get("pdf_url", ""),
+#        },
+#    }
 
-    return {
-        "id": v["UID"],
-        "forum": v["UID"],
-        "content": {
-            "title": v["title"],
-            "authors": list_fields["authors"],
-            "keywords": list_fields["keywords"],
-            "abstract": v["abstract"],
-            "TLDR": v["abstract"],
-            "recs": [],
-            "session": list_fields["session"],
-            "pdf_url": v.get("pdf_url", ""),
-        },
-    }
 
-
-def format_workshop(v):
-    list_keys = ["authors"]
-    list_fields = {}
-    for key in list_keys:
-        list_fields[key] = extract_list_field(v, key)
-
-    return {
-        "id": v["UID"],
-        "title": v["title"],
-        "organizers": list_fields["authors"],
-        "abstract": v["abstract"],
-    }
+#def format_workshop(v):
+#    list_keys = ["authors"]
+#    list_fields = {}
+#    for key in list_keys:
+#        list_fields[key] = extract_list_field(v, key)
+#
+#    return {
+#        "id": v["UID"],
+#        "title": v["title"],
+#        "organizers": list_fields["authors"],
+#        "abstract": v["abstract"],
+#    }
 
 
 # ITEM PAGES
 
 
-@app.route("/poster_<poster>.html")
-def poster(poster):
-    uid = poster
-    v = by_uid["papers"][uid]
-    data = _data()
-    data["paper"] = format_paper(v)
-    return render_template("poster.html", **data)
+#@app.route("/poster_<poster>.html")
+#def poster(poster):
+#    uid = poster
+#    v = by_uid["papers"][uid]
+#    data = _data()
+#    data["paper"] = format_paper(v)
+#    return render_template("poster.html", **data)
 
 
 @app.route("/speaker_<speaker>.html")
@@ -182,30 +198,30 @@ def speaker(speaker):
     return render_template("speaker.html", **data)
 
 
-@app.route("/workshop_<workshop>.html")
-def workshop(workshop):
-    uid = workshop
-    v = by_uid["workshops"][uid]
-    data = _data()
-    data["workshop"] = format_workshop(v)
-    return render_template("workshop.html", **data)
+#@app.route("/workshop_<workshop>.html")
+#def workshop(workshop):
+#    uid = workshop
+#    v = by_uid["workshops"][uid]
+#    data = _data()
+#    data["workshop"] = format_workshop(v)
+#    return render_template("workshop.html", **data)
 
 
-@app.route("/chat.html")
-def chat():
-    data = _data()
-    return render_template("chat.html", **data)
+#@app.route("/chat.html")
+#def chat():
+#    data = _data()
+#    return render_template("chat.html", **data)
 
 
 # FRONT END SERVING
 
 
-@app.route("/papers.json")
-def paper_json():
-    json = []
-    for v in site_data["papers"]:
-        json.append(format_paper(v))
-    return jsonify(json)
+#@app.route("/papers.json")
+#def paper_json():
+#    json = []
+#    for v in site_data["papers"]:
+#        json.append(format_paper(v))
+#    return jsonify(json)
 
 
 @app.route("/static/<path:path>")
@@ -225,12 +241,12 @@ def serve(path):
 @freezer.register_generator
 def generator():
 
-    for paper in site_data["papers"]:
-        yield "poster", {"poster": str(paper["UID"])}
+    #for paper in site_data["papers"]:
+    #    yield "poster", {"poster": str(paper["UID"])}
     for speaker in site_data["speakers"]:
         yield "speaker", {"speaker": str(speaker["UID"])}
-    for workshop in site_data["workshops"]:
-        yield "workshop", {"workshop": str(workshop["UID"])}
+    #for workshop in site_data["workshops"]:
+    #    yield "workshop", {"workshop": str(workshop["UID"])}
 
     for key in site_data:
         yield "serve", {"path": key}

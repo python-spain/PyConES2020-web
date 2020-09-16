@@ -1,5 +1,7 @@
 import argparse
 import json
+import pprint
+from collections import OrderedDict
 
 import requests
 from ics.icalendar import Calendar
@@ -55,20 +57,20 @@ def convert(args):
         #                  //
         #                  //};
 
-        json_event = {
-            "title": title,
-            "start": e.begin.for_json(),
-            "end": e.end.for_json(),
-            "location": e.location,
-            "link": e.location,
-            "category": "time",
-            "calendarId": tpe,
-        }
+        json_event = OrderedDict([
+            ("title", title),
+            ("start", e.begin.for_json()),
+            ("end", e.end.for_json()),
+            ("location", e.location),
+            ("link", e.location),
+            ("category", "time"),
+            ("calendarId", tpe),
+        ])
         collector.append(json_event)
-        print(json_event)
+        pprint.pprint(json_event)
 
     with (open(args.out, "w")) as f:
-        json.dump(collector, f)
+        json.dump(collector, f, indent=2, separators=(',', ': '))
 
     # print(c.events)
 
