@@ -29,6 +29,16 @@
 
 {% block content %}
 
-{{ readme | markdown }}
+<div class="py-1 px-3 px-sm-0">
+    {{ components.section("¡La PyConES 2020 ya casi está aquí!") }}
+    {{ about | markdown }}
+</div>
 
+{% include 'inc_agenda.html' %}
+
+<div class="py-1 px-3 px-sm-0">
+    <!-- Speakers -->
+    {{ components.section("Contáctanos") }}
+    {{ contact | markdown }}
+</div>
 {% endblock %}

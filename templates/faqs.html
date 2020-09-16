@@ -1,0 +1,10 @@
+{% set active_page = "FAQs" %}
+{% set page_title = "HFAQs" %}
+{% extends "base.html" %}
+
+{% block content %}
+<div class="py-3 px-3 px-sm-0">
+    {{ components.section("Frequently Asked Questions") }}
+    {{ components.faqgroup(FAQ) }}
+</div>
+{% endblock %}

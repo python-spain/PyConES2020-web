@@ -1,14 +1,12 @@
-# Taller de Django con PyLadies
-
 Si eres una mujer y quieres aprender a hacer páginas web, tenemos buenas noticias para ti. ¡Vamos a hacer un taller para principiantes de una tarde de duración!
 
-Será el **viernes 2 de Octubre de 16:00 a 20:00** a través de la plataforma Discord, durante el primer día de la conferencia nacional sobre Python más importante de España: PyConES, en su edición de 2020. 
+Será el **viernes 2 de Octubre de 16:00 a 20:00** a través de la plataforma Discord, durante el primer día de la conferencia nacional sobre Python más importante de España: PyConES, en su edición de 2020.
 
 Seguiremos el [tutorial de Django de Django Girls](https://tutorial.djangogirls.org/), que explica paso a paso todo lo que tienes que hacer, empezando por la instalación de python, hasta construir tu propio blog.
 
 Creemos que la industria IT se beneficiará enormemente con la incorporación de más mujeres, por eso, queremos darte la oportunidad de aprender a programar y convertirte en una de nosotras: ¡mujeres programadoras!
 
-## Quiero apuntarme al evento
+### Quiero apuntarme al evento:
 
 Si sientes curiosidad por la programación web y dispones de un ordenador portátil y conexión a internet, puedes apuntarte al evento. No necesitas tener conocimientos técnicos previos, el taller está pensado para iniciarse en la programación web desde cero.
 
@@ -24,7 +22,7 @@ Aunque no hay problemas de espacio, el número de plazas final estará limitado 
 
 El plazo para inscribirse cierra el 20 de septiembre.
 
-## Quiero mentorizar
+### Quiero mentorizar
 
 ¿Tienes experiencia programando con python y quieres mentorizar a nuestras estudiantes?
 
@@ -36,7 +34,7 @@ Te asignaremos un pequeño grupo de alumnas y tu labor será guiarlas y ayudar c
 
 El plazo para inscribirse cierra el 20 de septiembre.
 
-## Preguntas frecuentes
+### Preguntas frecuentes
 
 - **¿Necesito saber algo sobre páginas web o programación?** *¡No! El taller es para principiantes, por lo que no necesitas saber nada de antemano. De igual forma, si ya tienes algún pequeño conocimiento técnico (como HTML o CSS), ¡también puedes registrarte!*
 
@@ -46,7 +44,7 @@ El plazo para inscribirse cierra el 20 de septiembre.
 
 Si tienes alguna otra pregunta, escríbenos a [pyladies@2020.es.pycon.org](mailto:pyladies@2020.es.pycon.org).
 
-## Organiza
+### Organiza
 
 <div style="display: flex; flex-wrap: wrap;">
     <a href="https://twitter.com/yeswetech_org/">

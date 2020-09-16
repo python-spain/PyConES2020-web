@@ -1,0 +1,96 @@
+<div class="py-3 px-3 px-sm-0">
+    <!-- Speakers -->
+    {{ components.section("Agenda") }}
+
+    <div class="container agenda">
+        <div class="row justify-content-center">
+            <div class="schedule-warp">
+                <div class="day">2 de Octubre (Viernes)</div>
+                {% for slot in day1 %}
+                <div class="schedule-card {{ slot.type }}">
+                    <div class="insidebox">
+                        <div class="schedule-tag">{{ slot.start }} - {{ slot.end }}h</div>
+                        <div class="schedule-info">
+                            {% if slot.href %}
+                            <a href="{{slot.href}}" class="schedule-info-title">
+                              {{slot.title}}
+                            </a>
+                            {% else %}
+                            <div class="schedule-info-title">
+                              {{slot.title}}
+                            </div>
+                            {% endif %}
+                            <div  class="schedule-info-speaker">
+                              {{ slot.speaker }}
+                            </div>
+                        </div>
+                        {% if slot.video_url or slot.show_chat %}
+                        <div class="schedule-actions">
+                            {% if slot.video_url %}
+                            <a href="{{ slot.video_url }}"
+                               class="btn btn-outline-danger video">
+                                <svg><use xlink:href="static/images/sprite.svg#video"/></svg>
+                                <div>Ver vídeo</div>
+                            </a>
+                            {% endif %}
+                            {% if slot.show_chat %}
+                            <a href="{{ slot.chat_url }}"
+                               class="btn btn-outline-dark chat">
+                                <svg><use xlink:href="static/images/sprite.svg#chat"/></svg>
+                                <div>Q & A</div>
+                            </a>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="schedule-warp">
+                <div class="day">3 de Octubre (Sábado)</div>
+                {% for slot in day2 %}
+                <div class="schedule-card {{ slot.type }}">
+                    <div class="insidebox">
+                        <div class="schedule-tag">{{ slot.start }} - {{ slot.end }}h</div>
+                        <div class="schedule-info">
+                            {% if slot.UID %}
+                            <a href="speaker_{{slot.UID}}.html" class="schedule-info-title">
+                              {{slot.title}}
+                            </a>
+                            {% else %}
+                            <div class="schedule-info-title">
+                              {{slot.title}}
+                            </div>
+                            {% endif %}
+                            <div  class="schedule-info-speaker">
+                              {{ slot.speaker }}
+                            </div>
+                        </div>
+                        {% if slot.video_url or slot.show_chat %}
+                        <div class="schedule-actions">
+                            {% if slot.video_url %}
+                            <a href="{{ slot.video_url }}"
+                               class="btn btn-outline-danger video">
+                                <svg><use xlink:href="static/images/sprite.svg#video"/></svg>
+                                <div>Ver vídeo</div>
+                            </a>
+                            {% endif %}
+                            {% if slot.show_chat %}
+                            <a href="{{ slot.chat_url }}"
+                               class="btn btn-outline-dark chat">
+                                <svg><use xlink:href="static/images/sprite.svg#chat"/></svg>
+                                <div>Q & A</div>
+                            </a>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="small text-secondary text-center">NOTA: El orden de las ponencias es provisional, pude sufrir cambios.</div>
+</div>

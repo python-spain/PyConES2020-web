@@ -1,0 +1,17 @@
+{% set active_page = "Speakers" %}
+{% set page_title = "Speakers" %}
+{% extends "base.html" %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="py-3 px-3 px-sm-0">
+    <!-- Speakers -->
+    {{ components.section("Speakers") }}
+    <div class="speakers">
+      {{ components.speakergroup(speakers) }}
+    </div>
+  </div>
+</div>
+{% endblock %}

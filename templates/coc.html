@@ -1,0 +1,10 @@
+{% set active_page = "CoC" %}
+{% extends "base.html" %}
+
+{% block content %}
+
+{{ components.section("Código de conducta") }}
+
+{{ readme | markdown }}
+
+{% endblock %}
