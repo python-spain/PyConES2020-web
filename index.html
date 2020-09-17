@@ -65,7 +65,7 @@
     <!-- NAV -->
     
     <nav
-      class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+      class="navbar sticky-top navbar-expand-lg navbar-light mr-auto py-bg"
       id="main-nav"
     >
       <div class="container">
@@ -99,7 +99,27 @@
             </li>
             
             <li class="nav-item ">
+              <a class="nav-link" href="index.html#agenda">Agenda</a>
+            </li>
+            
+            <li class="nav-item ">
               <a class="nav-link" href="pyladies.html">Taller PyLadies</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="speakers.html">Speakers</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html#contáctanos">Contáctanos</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="coc.html">CoC</a>
             </li>
             
           </ul>
@@ -113,7 +133,7 @@
     
 <style>
   .back {
-    background: url("static/images/main.jpg") no-repeat center;
+    background: url("static/images/main.png") no-repeat center;
     background-size: cover;
   }
   .back h2 {
@@ -145,139 +165,631 @@
       <div class="content">
         
 
-<h1><a name="spanish-version"></a>¡La PyConES 2020 ya casi está aquí!</h1>
-<p><center><small>
- NOTE: If you don’t speak Spanish <a href="#english-version">go to the ENGLISH version</a>
-</small></center></p>
-<h2>Dónde y cuándo</h2>
-<p>La octava edición de la PyConES se celebrará durante el día <strong>3 de Octubre de 2020</strong> como un evento en línea. También habrá un <a href="/pyladies.html">taller de Django con Pyladies</a> la tarde del 2 de octubre.</p>
-<h2>Código de conducta</h2>
-<p>Queremos que la conferencia sea una experiencia agradable, acogedora y libre de acoso para todo el mundo. PyConES 2020 posee un <a href="https://www.es.python.org/pages/codigo-de-conducta.html">código de conducta</a> de obligado cumplimiento para todas las personas que participen en el evento.</p>
-<h2>Formato de las charlas</h2>
-<p>Este año excepcionalmente hemos limitado las charlas a un solo formato de charla corta de 20 minutos para facilitar tanto la organización como la asistencia.</p>
-<p>Así las charlas tendrán una duración total de 20 minutos, con 15 minutos para la ponencia y 5 para preguntas del público.</p>
-<h2>De qué temas se hablará</h2>
-<ul>
-<li>
-<p><strong>Core</strong> - Características del lenguaje, implementaciones de Python (CPython, Pypy,...), extensión de Python y biblioteca estándar, aspectos internos del lenguaje</p>
-</li>
-<li>
-<p><strong>Comunidad, sociedad y cultura</strong> - Diversidad, salud, productividad, problemas en el sector tecnológico/comunidad, privacidad, participación ciudadana, proyectos tecnológicos con fines sociales,…</p>
-</li>
-<li>
-<p><strong>Ciencia de datos, Machine Learning e IA</strong></p>
-</li>
-<li>
-<p><strong>Computación científica</strong> - Uso de Python en ciencia e investigación: SIG, matemáticas, simulaciones, espacio, bioingeniería,…</p>
-</li>
-<li>
-<p><strong>Web</strong> - Desarrollo Web, APIs, Microservicios,…</p>
-</li>
-<li>
-<p><strong>Aplicaciones de Escritorio</strong> -  Qt, GTK+, Tkinter, Gnome, KDE, Accesibilidad,…</p>
-</li>
-<li>
-<p><strong>Videojuegos y Diseño</strong> -  Python en el desarrollo de videojuegos, animación, modelado 3D,…</p>
-</li>
-<li>
-<p><strong>Python Embebido e IoT</strong> - MicroPython, robótica, Arduino, Raspberry Pi,…</p>
-</li>
-<li>
-<p><strong>Sys / DevOps</strong> - Herramientas de desarrollo y automatización, tests, CI / CD, contenedores, orquestación, registro y monitorización,…</p>
-</li>
-<li>
-<p><strong>Redes y seguridad</strong> -  Programación de redes, seguridad de redes, cifrado,...</p>
-</li>
-</ul>
-<p>En PyConES tenemos un público con intereses muy variados así que aceptamos propuestas que ofrezcan una introducción para aquellas personas recién iniciadas en cualquiera de estos temas, como aquellas que deseen profundizar en algún aspecto en concreto para quien domina la materia.</p>
-<h2>Cómo será el proceso de selección</h2>
-<ol>
-<li>
-<p>Las propuestas se enviarán mediante un formulario, adjuntando un vídeo resumen de la misma de no más de 5 minutos. Ten en cuenta que, si te seleccionamos, te pediremos luego que antes de la conferencia grabes y envíes un vídeo de 15’ que será emitido durante la conferencia.</p>
-</li>
-<li>
-<p>Un grupo formado por personas voluntarias de la Asociación Python España junto con el equipo organizador revisará los vídeos y hará la selección final atendiendo a criterios de interés y diversidad, pudiendo contactar contigo si surge alguna duda o fuese necesaria alguna aclaración.</p>
-</li>
-<li>
-<p>El <strong>25 de agosto</strong> nos pondremos en contacto con todas las personas que hayan enviado una propuesta para comunicarles si han sido seleccionadas o no.</p>
-</li>
-<li>
-<p>Estas personas deberán crear un vídeo de 15’ con la charla completa y enviarlo a la organización antes del <strong>20 de septiembre.</strong></p>
-</li>
-<li>
-<p>La semana anterior al evento se te comunicará el slot de emisión y esperamos que estés online para contestar a los 5 minutos de preguntas post emisión.</p>
-</li>
-</ol>
-<h2>Contáctanos</h2>
-<p>Si tienes alguna duda, puedes escribirnos a <strong><a href="mailto:contact@2020.es.pycon.org">contact@2020.es.pycon.org</a></strong></p>
-<hr style="margin-bottom: 50px">
+<div class="py-1 px-3 px-sm-0">
+    <div class="row p-4" id="¡la_pycones_2020_ya_casi_está_aquí!">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">¡La PyConES 2020 ya casi está aquí!</h2>
+  </div>
+</div>
+    <p>A pesar de haber tenido que cancelar el evento que estábamos preparando en Granada :-( la octava edición de la PyConES se celebrará como un <strong>evento en línea y totalmente gratuiro</strong> durante el día <strong>3 de Octubre de 2020</strong>. Además contaremos también con un <strong><a href="/pyladies.html">taller de Django con Pyladies</a></strong> la tarde del <strong>2 de Octubre de 2020</strong>.</p>
+<p>Las charlas se retransmitirán por el <a href="https://www.youtube.com/channel/UCyth_6hqft9a7B_thdwYyww">canal de YouTube de la asociación Python España</a>. Estarán pregrabadas, pero podrás hacer preguntas y participar en debates a través del <a href="https://comunidad.es.python.org/">foro de Python España</a>.</p>
+<p><strong>IMPORTANTE:</strong> Queremos que la conferencia sea una experiencia agradable, acogedora y libre de acoso para todo el mundo. PyConES 2020 posee un <strong><a href="/coc.html">Código de Conducta</a> de obligado cumplimiento para todas las personas que participen en el evento</strong>.</p>
+</div>
 
-<h1><a name="english-version"></a>PyConES 2020 is almost here!!!</h1>
-<p><center><small>
-NOTE: Si hablas español, puedes <a href="#spanish-version">ir a la versión en ESPAÑOL</a>
-</small></center></p>
-<h2>Where and when</h2>
-<p>The eighth edition of PyConES will be held on <strong>October 3rd, 2020</strong> as an online event. There will be as well a <a href="/pyladies.html">Django workshop with Pyladies</a> on October 2nd, in the afternoon.</p>
-<h2>Code of Conduct</h2>
-<p>We want to have a welcoming and pleasant conference, with a harassment-free experience for everyone. PyConES 2020 has a mandatory <a href="https://es.python.org/pages/codigo-de-conducta.html">code of conduct</a> for all people participating in the event.</p>
-<h2>Type of sessions available</h2>
-<p>As per the current situation this year we’re changing the format and limiting it to just one option, the 20 minutes short talk, in order to make it easier for both speakers and attendees.</p>
-<p>So, you’ll have a 20 minutes slot divided in 15 minutes for the talk and 5 minutes for questions from the attendees.</p>
-<h2>Which topics will be covered</h2>
-<ul>
-<li>
-<p><strong>Core Python</strong> - Language Features, Python Implementations, Extending Python and Standard Library, language internals.</p>
-</li>
-<li>
-<p><strong>Community, culture and society</strong> - Diversity, health, productivity, workspace issues, privacy, community building, coding for causes.</p>
-</li>
-<li>
-<p><strong>Data Science, Machine Learning and AI</strong></p>
-</li>
-<li>
-<p><strong>Scientific Computing</strong> - Python usage in scientific computing and research. GIS, Mathematics, Simulations.</p>
-</li>
-<li>
-<p><strong>Web</strong> -  Web development, APIs, Microservices...</p>
-</li>
-<li>
-<p><strong>Desktop Applications</strong> - Qt, GTK+, Tkinter, Gnome, KDE, Accessibility.</p>
-</li>
-<li>
-<p><strong>Game, Design and 3D Modelling </strong>- Python in developing games, 3-D modelling and animation.</p>
-</li>
-<li>
-<p><strong>Embedded Python and IoT</strong> - MicroPython, Python on Hardware, Robotics, Arduino and Raspberry Pi.</p>
-</li>
-<li>
-<p><strong>Sys / Dev Ops</strong> - Testing, CI/CD, Containers, Orchestration, Logging and Monitoring.</p>
-</li>
-<li>
-<p><strong>Networking and Security</strong> - Network Programming, Network Security and Encryption</p>
-</li>
-</ul>
-<p>At PyConES we have an audience with different backgrounds and diverse interests. Therefore, we accept proposals that offer an introduction for those newly initiated, as well as those proposals that deepen in some aspect in particular for those who dominate the topic.</p>
-<h2>How will the selection process be?</h2>
-<ol>
-<li>
-<p>The proposals will be submitted using a form, with a link to a video of no more than 5 minutes with the talk’s summary. Please note that if you’re selected we’ll ask you to record a 15’ video that will be broadcasted during the event.</p>
-</li>
-<li>
-<p>A group of volunteers and organizers of Python España will check the videos and will make the final selection, attending interest and diversity criteria. They can contact you if some question arises or some clarification is needed.</p>
-</li>
-<li>
-<p>On <strong>August 25th</strong> we will contact everyone who submitted a proposal to tell them if they were selected or not.</p>
-</li>
-<li>
-<p>The selected speakers will need to create a 15’ video with the complete talk and send it to the organization before <strong>September 20th.</strong></p>
-</li>
-<li>
-<p>The week before the event we will tell you the emission slot, so you can be online to answer the question live during the 5’ after the emission.</p>
-</li>
-</ol>
-<h2>Contact us</h2>
-<p>If you have any questions, you can write to us at <strong><a href="mailto:contact@2020.es.pycon.org">contact@2020.es.pycon.org</a></strong></p>
+<div class="py-3 px-3 px-sm-0">
+    <!-- Speakers -->
+    <div class="row p-4" id="agenda">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Agenda</h2>
+  </div>
+</div>
 
+    <div class="container agenda">
+        <div class="row justify-content-center">
+            <div class="schedule-warp">
+                <div class="day">2 de Octubre (Viernes)</div>
+                
+                <div class="schedule-card workshop">
+                    <div class="insidebox">
+                        <div class="schedule-tag">16:00 - 20:00h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="pyladies.html" class="schedule-info-title">
+                              Taller de Django con PyLadies
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Yes We Tech / PyLadies Madrid / Django Girls Mallorca
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="schedule-warp">
+                <div class="day">3 de Octubre (Sábado)</div>
+                
+                <div class="schedule-card org">
+                    <div class="insidebox">
+                        <div class="schedule-tag">9:45 - 9:50h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              Presentación PyConES2020
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">10:00 - 10:15h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_6.html" class="schedule-info-title">
+                              COVID19Gram: seguimiento de la evolución del coronavirus desde telegram
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Antònia Tugores / Biel Frontera Borrueco / Jaume Perelló Perelló
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">10:15 - 10:20h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">10:30 - 10:45h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_14.html" class="schedule-info-title">
+                              Una rebanada de Python
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Naomi Ceder
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">10:45 - 10:59h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">11:00 - 11:15h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_7.html" class="schedule-info-title">
+                              Interpretabilidad de Modelos de Machine Learning con Python
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Antonio José Soto Rodriguez
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">11:15 - 11:20h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">11:30 - 11:45h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_13.html" class="schedule-info-title">
+                              Videojuegos con Python Arcade
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Miguel Ángel Rico Blanco
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">11:45 - 11:50h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">12:00 - 12:15h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_10.html" class="schedule-info-title">
+                              Tipificación estática en Python 3.9
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Jordi Contestí
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">12:15 - 12:20h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">12:30 - 12:45h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_3.html" class="schedule-info-title">
+                              Python en el universo de las lentes gravitatorias: cómo estudiar el efecto microlente
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Ana Esteban Gutiérrez
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">12:45 - 12:50h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">13:00 - 13:15h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_4.html" class="schedule-info-title">
+                              EDA and NLP basics: Exploring the innards of the Spanish poetry
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Andrea Morales Garzón / Miguel López Pérez
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">13:15 - 13:20h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">13:30 - 13:45h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_15.html" class="schedule-info-title">
+                              Python Serverless Microservices
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Nilo Ney Coutinho Menezes
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card lunch">
+                    <div class="insidebox">
+                        <div class="schedule-tag">13:45 - 15:00h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              Almuerzo
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">15:00 - 15:15h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_12.html" class="schedule-info-title">
+                              Hiring demystified
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Mar Bartolomé
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">15:15 - 15:20h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">15:30 - 15:45h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_1.html" class="schedule-info-title">
+                              sudo pip install = 💩, pipx = 👌
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Agustín Herranz Cecilia
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">15:45 - 15:50h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">16:00 - 16:15h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_9.html" class="schedule-info-title">
+                              Investigating Digital Crimes using Python
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Gajendra Deshpande
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">16:15 - 16:20h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">16:30 - 16:45h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_11.html" class="schedule-info-title">
+                              AutoML (Machine Learning para Vagos)
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Manuel Garrido Peña
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">16:45 - 16:50h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">17:00 - 17:15h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_5.html" class="schedule-info-title">
+                              Introducción a la programación Funcional en Python
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Andros Fenollosa Hurtado
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">17:15 - 17:20h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              Python Mallorca
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">17:30 - 17:45h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_8.html" class="schedule-info-title">
+                              Machine learning model serving with streamlit and FastAPI
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Davide Fiocco
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">17:45 - 17:50h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card talk">
+                    <div class="insidebox">
+                        <div class="schedule-tag">18:00 - 18:15h</div>
+                        <div class="schedule-info">
+                            
+                            <a href="speaker_2.html" class="schedule-info-title">
+                              Robots PCR Covidwarriors
+                            </a>
+                            
+                            <div  class="schedule-info-speaker">
+                              Aitor Gastaminza / Alex Gasulla / Victoriano Giralt / Ramón Martínez / Ernesto Sánchez
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card community">
+                    <div class="insidebox">
+                        <div class="schedule-tag">18:15 - 18:20h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              TBD
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card lighting">
+                    <div class="insidebox">
+                        <div class="schedule-tag">18:30 - 19:00h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              Lighting Talks
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="schedule-card assembly">
+                    <div class="insidebox">
+                        <div class="schedule-tag">19:00 - 21:00h</div>
+                        <div class="schedule-info">
+                            
+                            <div class="schedule-info-title">
+                              Asamblea Asociación Python España
+                            </div>
+                            
+                            <div  class="schedule-info-speaker">
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="small text-secondary text-center">NOTA: El orden de las ponencias es provisional, pude sufrir cambios.</div>
+</div>
+
+<div class="py-1 px-3 px-sm-0">
+    <!-- Speakers -->
+    <div class="row p-4" id="contáctanos">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Contáctanos</h2>
+  </div>
+</div>
+    <p><center>
+Si tienes alguna duda, puedes escribirnos a <strong><a href="mailto:contact@2020.es.pycon.org">contact@2020.es.pycon.org</a></strong>.
+</center></p>
+</div>
 
       </div>
     </div>
@@ -288,7 +800,7 @@ NOTE: Si hablas español, puedes <a href="#spanish-version">ir a la versión en 
     
 
     <!-- Footer -->
-    <footer class="footer bg-light p-5 mt-5">
+    <footer class="footer p-5 mt-5 py-bg">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-5">

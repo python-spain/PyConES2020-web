@@ -1,0 +1,569 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="static/css/variables.css" />
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+
+    <!-- External Javascript libs  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+      href="static/css/Lato.css"
+      rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet" />
+    <link
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
+    />
+
+    <title>PyConES 2020: HFAQs</title>
+    
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light mr-auto py-bg"
+      id="main-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+             class="logo" src="static/images/logo-pycones2020.png"
+             height="auto"
+             width="200px"
+          />
+        </a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html#agenda">Agenda</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="pyladies.html">Taller PyLadies</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="speakers.html">Speakers</a>
+            </li>
+            
+            <li class="nav-item active">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html#contáctanos">Contáctanos</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="coc.html">CoC</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    
+    <!-- User Overrides -->
+     
+
+    <div class="container">
+      <!-- Tabs -->
+      <div class="tabs">
+         
+      </div>
+      <!-- Content -->
+      <div class="content">
+        
+<div class="py-3 px-3 px-sm-0">
+    <div class="row p-4" id="frequently_asked_questions">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Frequently Asked Questions</h2>
+  </div>
+</div>
+    
+<div class="row p-3" id="general_(es)">
+  <div class="col-12 bd-content">
+    <h3>General (ES)</h3>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse1-1"
+          aria-expanded="true"
+          aria-controls="collapse1-1"
+        >
+          ¿Cuándo y en qué fechas será la PyConES de este año?
+        </a>
+      </div>
+      <div
+        id="collapse1-1"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>La PyConES 2020: Pandemic Edition se celebrará los días 2 y 3 de octubre. El primer día tendremos un <a href="/pyladies.html">taller organizado por PyLadies</a>, en el segundo tendrán lugar las <a href="/speakers.html">charlas</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse1-2"
+          aria-expanded="true"
+          aria-controls="collapse1-2"
+        >
+          ¿Necesito coger una entrada o registrarme en algún sítio?
+        </a>
+      </div>
+      <div
+        id="collapse1-2"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>No, la PyConES 2020: Pandemic Edition será online y totalmente gratuita.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse1-3"
+          aria-expanded="true"
+          aria-controls="collapse1-3"
+        >
+          ¿Cuál es el formato de la conferencia?
+        </a>
+      </div>
+      <div
+        id="collapse1-3"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>Las charlas se retransmitirán por el canal de YouTube de la asociación Python España. Estarán pregrabadas pero podrás hacer preguntas a través del <a href="https://comunidad.es.python.org/">Foro de la Asociación Python España</a>. Consulta la agenda <a href="/index.html#agenda">aquí</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse1-4"
+          aria-expanded="true"
+          aria-controls="collapse1-4"
+        >
+          ¿Habrá talleres?
+        </a>
+      </div>
+      <div
+        id="collapse1-4"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>Este año solo tendremos un <a href="/pyladies.html">taller organizado por PyLadies</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse1-5"
+          aria-expanded="true"
+          aria-controls="collapse1-5"
+        >
+          ¿Habrá Keynotes?
+        </a>
+      </div>
+      <div
+        id="collapse1-5"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>No, este año no tendremos keynotes, pero echa un vistazo a la <a href="/index.html#agenda">agenda</a>, ya que tenemos cositas muy interesantes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse1-6"
+          aria-expanded="true"
+          aria-controls="collapse1-6"
+        >
+          ¿Puedo patrocinar la PyConES?
+        </a>
+      </div>
+      <div
+        id="collapse1-6"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>Al ser online y gratuita, este año no contemplamos recibir patrocinios. Aunque se pueden hacer donaciones a la Asociación Python España.</p>
+<p>Puedes realizar una transferencia a nombre de 'Asociación Python España' al número de cuenta <code>ES18 1491 0001 2230 0008 5378</code> y escribiendo un email a <a href="mailto:tesoreria@es.python.org">tesoreria@es.python.org</a> para que te envíen el documento que certifica tu donación.</p>
+<p>Por supuesto, agradecemos tu interés y te invitamos a patrocinar la próxima edición que será en Granada, esperemos que en 2021.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row p-3" id="general_(en)">
+  <div class="col-12 bd-content">
+    <h3>General (EN)</h3>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse2-1"
+          aria-expanded="true"
+          aria-controls="collapse2-1"
+        >
+          Where and when?
+        </a>
+      </div>
+      <div
+        id="collapse2-1"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>The eighth edition of PyConES will be held on October 3rd, 2020 as an online event. There will be as well a <a href="/pyladies.html">Django workshop with Pyladies</a> on October 2nd, in the afternoon.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse2-2"
+          aria-expanded="true"
+          aria-controls="collapse2-2"
+        >
+          Do I need to buy a ticket or register somewhere?
+        </a>
+      </div>
+      <div
+        id="collapse2-2"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>No. The event will be online and totally free of charge. You don't need to register anywhere.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse2-3"
+          aria-expanded="true"
+          aria-controls="collapse2-3"
+        >
+          What is the format of the conference?
+        </a>
+      </div>
+      <div
+        id="collapse2-3"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>The talks will be broadcast on the YouTube channel of the Python Spain association. They will be prerecorded but you can ask questions through the <a href="https://comunidad.es.python.org/">Python Spain Association Forum</a>. Check the agenda <a href="/index.html#agenda">here</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse2-4"
+          aria-expanded="true"
+          aria-controls="collapse2-4"
+        >
+          Will there be workshops?
+        </a>
+      </div>
+      <div
+        id="collapse2-4"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>This year we will only have one <a href="/pyladies.html">workshop organized by PyLadies</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse2-5"
+          aria-expanded="true"
+          aria-controls="collapse2-5"
+        >
+          Will there be Keynotes?
+        </a>
+      </div>
+      <div
+        id="collapse2-5"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>No, this year we will not have keynotes, but take a look at the <a href="/index.html#agenda">agenda</a>, as we have some very interesting talks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12" id="accordionExample">
+    <div class="card m-2">
+      <div class="card-header">
+        <a
+          class=""
+          href="#"
+          data-toggle="collapse"
+          data-target="#collapse2-6"
+          aria-expanded="true"
+          aria-controls="collapse2-6"
+        >
+          Can I sponsor the PyConES?
+        </a>
+      </div>
+      <div
+        id="collapse2-6"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div class="card-body">
+          <p>As it will be online and free, this year we do not plan to receive sponsorships. Although you can make donations to the Python Spain Association.</p>
+<p>You can make a transfer in the name of 'Asociación Python España' to the account number <code>ES18 1491 0001 2230 0008 5378</code> and writing an email to <a href="mailto:tesoreria@es.python.org">tesoreria@es.python.org</a> to that they send you the document certifying your donation.</p>
+<p>Of course, we appreciate your interest and we invite you to sponsor the next edition that will be in Granada, hopefully in 2021.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    
+
+    <!-- Footer -->
+    <footer class="footer p-5 mt-5 py-bg">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-5">
+            <p class="text-center">
+              © 2020
+              <a href="https://es.python.org">
+                <img class="footer-logo-pyes" src="static/images/logo-pyes.png" >
+              </a>
+              Python España &amp; PyConES 2020 Org
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    
+  </body>
+</html>
