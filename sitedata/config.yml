@@ -11,7 +11,7 @@ logo:
 site_title: PyConES 2020
 page_title:
   prefix: PyConES 2020
-  separator: ': '
+  separator: ' - '
 background_image: static/images/main.png
 organization: Python España & PyConES 2020 Org
 

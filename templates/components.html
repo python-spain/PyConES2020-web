@@ -1,3 +1,21 @@
+{% macro social_meta(title, description, image, image_alt) -%}
+  {% if title %}<meta name="title" content="{{title}}">{% endif %}
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+
+  {% if title %}<meta property="og:title" content="{{title}}">{% endif %}
+  {% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+  {% if image %}<meta property="og:image" content="{{ image }}">{% endif %}
+  {% if image_alt %}<meta property="og:image:alt" content="{{ image_alt }}">{% endif %}
+
+  <meta name="twitter:card" content="summary_large_image">
+  {% if title %}<meta name="twitter:title" content="{{title}}">{% endif %}
+  {% if description %}<meta name="twitter:description" content="{{ description }}">{% endif %}
+  {% if image %}<meta name="twitter:image" content="{{ image }}">{% endif %}
+  {% if image_alt %}<meta name="twitter:image:alt" content="{{ image_alt }}">{% endif %}
+  <meta name="twitter:site" content="@PyConES">
+  <meta name="twitter:creator" content="@python_es">
+{%- endmacro %}
+
 {% macro tabs(tab_group) -%}
 <ul class="nav nav-pills justify-content-center">
   {% for tab in tab_group %}

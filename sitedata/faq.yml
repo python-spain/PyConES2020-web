@@ -5,7 +5,10 @@ FAQ:
         Answer: "La PyConES 2020: Pandemic Edition se celebrará los días 2 y 3 de octubre. El primer día tendremos un [taller organizado por PyLadies](/pyladies.html), en el segundo tendrán lugar las [charlas](/speakers.html)."
 
       - Question: ¿Necesito coger una entrada o registrarme en algún sítio?
-        Answer: "No, la PyConES 2020: Pandemic Edition será online y totalmente gratuita."
+        Answer: |
+            No, la PyConES 2020 será online y totalmente gratuita.
+
+            Aunque se pueden hacer donaciones a la Asociación Python España. Puedes realizar una transferencia a nombre de 'Asociación Python España' al número de cuenta `ES18 1491 0001 2230 0008 5378` y escribiendo un email a [tesoreria@es.python.org](mailto:tesoreria@es.python.org) para que te envíen el documento que certifica tu donación.
 
       - Question: ¿Cuál es el formato de la conferencia?
         Answer: "Las charlas se retransmitirán por el canal de YouTube de la asociación Python España. Estarán pregrabadas pero podrás hacer preguntas a través del [Foro de la Asociación Python España](https://comunidad.es.python.org/). Consulta la agenda [aquí](/index.html#agenda)."
@@ -17,12 +20,7 @@ FAQ:
         Answer: "No, este año no tendremos keynotes, pero echa un vistazo a la [agenda](/index.html#agenda), ya que tenemos cositas muy interesantes."
 
       - Question: ¿Puedo patrocinar la PyConES?
-        Answer: |
-            Al ser online y gratuita, este año no contemplamos recibir patrocinios. Aunque se pueden hacer donaciones a la Asociación Python España.
-
-            Puedes realizar una transferencia a nombre de 'Asociación Python España' al número de cuenta `ES18 1491 0001 2230 0008 5378` y escribiendo un email a [tesoreria@es.python.org](mailto:tesoreria@es.python.org) para que te envíen el documento que certifica tu donación.
-
-            Por supuesto, agradecemos tu interés y te invitamos a patrocinar la próxima edición que será en Granada, esperemos que en 2021.
+        Answer: "Al ser online y gratuita, este año no contemplamos recibir patrocinios. Por supuesto, agradecemos tu interés y te invitamos a patrocinar la próxima edición que será en Granada, esperemos que en 2021."
 
   - Section: General (EN)
     QA:
@@ -30,7 +28,10 @@ FAQ:
         Answer: "The eighth edition of PyConES will be held on October 3rd, 2020 as an online event. There will be as well a [Django workshop with Pyladies](/pyladies.html) on October 2nd, in the afternoon."
 
       - Question: Do I need to buy a ticket or register somewhere?
-        Answer: "No. The event will be online and totally free of charge. You don't need to register anywhere."
+        Answer: |
+            No. The event will be online and totally free of charge. You don't need to register anywhere.
+
+            Although you can make donations to the Python Spain Association. You can make a transfer in the name of 'Asociación Python España' to the account number `ES18 1491 0001 2230 0008 5378` and writing an email to [tesoreria@es.python.org] (mailto: tesoreria@es.python.org) to that they send you the document certifying your donation.
 
       - Question: What is the format of the conference?
         Answer: "The talks will be broadcast on the YouTube channel of the Python Spain association. They will be prerecorded but you can ask questions through the [Python Spain Association Forum](https://comunidad.es.python.org/). Check the agenda [here](/index.html#agenda)."
@@ -42,9 +43,4 @@ FAQ:
         Answer: "No, this year we will not have keynotes, but take a look at the [agenda](/index.html#agenda), as we have some very interesting talks."
 
       - Question: Can I sponsor the PyConES?
-        Answer: |
-            As it will be online and free, this year we do not plan to receive sponsorships. Although you can make donations to the Python Spain Association.
-
-            You can make a transfer in the name of 'Asociación Python España' to the account number `ES18 1491 0001 2230 0008 5378` and writing an email to [tesoreria@es.python.org](mailto:tesoreria@es.python.org) to that they send you the document certifying your donation.
-
-            Of course, we appreciate your interest and we invite you to sponsor the next edition that will be in Granada, hopefully in 2021.
+        Answer: "As it will be online and free, this year we do not plan to receive sponsorships. Of course, we appreciate your interest and we invite you to sponsor the next edition that will be in Granada, hopefully in 2021."
