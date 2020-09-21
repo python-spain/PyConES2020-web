@@ -42,8 +42,13 @@
 {% include 'inc_agenda.html' %}
 
 <div class="py-1 px-3 px-sm-0">
-    <!-- Speakers -->
+    {{ components.section("Newsletter") }}
+    {% include 'inc_newsletter.html' %}
+</div>
+
+<div class="py-1 px-3 px-sm-0">
     {{ components.section("Contáctanos") }}
     {{ contact | markdown }}
 </div>
+
 {% endblock %}
