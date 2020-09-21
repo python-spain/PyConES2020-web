@@ -462,3 +462,7 @@ body .py-btn:hover {
 .schedule-actions > .btn:hover svg {
   fill: white;
 }
+
+.sticky-top {
+  z-index: 999 !important;
+}
