@@ -10,9 +10,10 @@ Creemos que la industria IT se beneficiará enormemente con la incorporación de
 
 ## Quiero apuntarme al evento
 
-El plazo para inscribirse como alumna terminó el 20 de septiembre. **Si te inscribiste en el formulario deberías haber recibido un email para confirmar tu asistencia, así que no olvides revisar tu bandeja de correo (incluído la carpeta de spam)**. Si no has recibido el correo, por favor, escríbenos a [pyladies@2020.es.pycon.org](mailto:pyladies@2020.es.pycon.org)
+El plazo para inscribirse como alumna terminó el 20 de septiembre. Aunque no hay problemas de espacio, el número de plazas final estará limitado por la cantidad de mentoras y mentores que se apunten. Por tanto, haberte inscrito no garantiza que tengas plaza.
 
-Aunque no hay problemas de espacio, el número de plazas final estará limitado por la cantidad de mentoras y mentores que se apunten. Por tanto, haberte inscrito no garantiza que tengas plaza. **Te escribiremos una semana antes para confirmar tu asistencia y necesitaremos que re-confirmes, así que no olvides revisar tu bandeja de correo**.
+Actualmente estamos revisando las solicitudes en base a los mentores y mentoras inscritas y recibirás un correo en breve (si no lo has recibido ya) **así que no olvides revisar tu bandeja de correo (incluído la carpeta de spam)**. Si el 27 de septiembre no has recibido noticias nuestras, por favor, escríbenos a [pyladies@2020.es.pycon.org](mailto:pyladies@2020.es.pycon.org)
+
 
 
 ## Quiero mentorizar
