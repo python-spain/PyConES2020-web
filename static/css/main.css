@@ -284,30 +284,53 @@ body .carousel-control-prev {
 }
 
 
-/* speakers cards */
+/* speakers and communitiescards */
+.communities .card,
 .speakers .card,
 .pp-card {
   background: none;
   border: none;
 }
 
+.communities .card-header,
 .speakers .card-header,
 .pp-card .card-header{
   background: #ffffff00;
   border: none;
 }
 
+.communities a.main-title {
+  color: var(--color-secondary400);
+  font-weight: bold;
+}
+
+.communities a.main-title:hover {
+  color: var(--color-secondary700);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
 @media (min-width: 992px) {
+  .communities .card-header .container-photo {
+    border-right: 4px solid var(--color-secondary400);
+  }
+
   .speakers .card-header .container-photo {
     border-right: 4px solid var(--color-primary500);
   }
 }
 
-.pp-card .card-header {
+.community .pp-card .card-header {
+  border-bottom: 4px solid var(--color-secondary400);
+}
+
+.speaker .pp-card .card-header {
   border-bottom: 4px solid var(--color-primary500);
 }
 
 
+.communities .card-header .img-thumbnail,
 .speakers .card-header .img-thumbnail,
 .pp-card .card-header .img-thumbnail {
   border: none;
@@ -421,12 +444,17 @@ body .py-btn:hover {
 .org .schedule-tag        { background-color: var(--color-grayscale700); }
 .talk .schedule-tag       { background-color: var(--color-primary500); }
 .community .schedule-tag  { background-color: var(--color-secondary400); }
-.lighting .schedule-tag   { background-color: var(--color-red300); }
+.lightning .schedule-tag   { background-color: var(--color-red300); }
 .assembly  .schedule-tag  { background-color: var(--color-yellow700); }
 
 .schedule-info {
   flex: 1
 }
+
+.schedule-info-title.speaker { color: var(--color-primary500); }
+.schedule-info-title.speaker:hover { color: var(--color-primary700); }
+.schedule-info-title.community { color: var(--color-secondary400); }
+.schedule-info-title.community:hover { color: var(--color-secondary700); }
 
 .schedule-actions {
   flex: 0 0 15rem;

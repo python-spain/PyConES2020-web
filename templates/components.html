@@ -90,6 +90,48 @@
 {% endfor %}
 {%- endmacro %}
 
+{% macro communitygroup(communities) -%}
+{% for community in communities %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2 col-sm-5 container-photo">
+            <img src="{{community.image}}" width="100%" class="img-thumbnail" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h3>
+                <a href="community_{{community.UID}}.html" class="main-title">
+                  {{community.community}}
+                </a>
+              </h3>
+            </div>
+            {# <!--
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                {{community.community}}
+              </span>
+            </div>
+            <div class="mx-3 my-0 text-muted">
+              <span class="card-title h6 font-italic">
+                {{community.topic}}
+              </span>
+            </div>
+            --> #}
+            <div class="m-3">
+              {{community.about_short|safe}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+{%- endmacro %}
+
 {% macro organizergroup(committee) -%}
 <div class="row">
   {% for org in committee %}

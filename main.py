@@ -29,7 +29,7 @@ def main(site_data_path):
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
     #for typ in ["papers", "speakers", "workshops"]:
-    for typ in ("speakers",):
+    for typ in ("speakers", "communities"):
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
@@ -78,6 +78,13 @@ def speakers():
     data = _data()
     data["speakers"] = site_data["speakers"]
     return render_template("speakers.html", **data)
+
+
+@app.route("/communities.html")
+def communities():
+    data = _data()
+    data["communities"] = site_data["communities"]
+    return render_template("communities.html", **data)
 
 
 @app.route("/pyladies.html")
@@ -196,6 +203,15 @@ def speaker(speaker):
     data = _data()
     data["speaker"] = v
     return render_template("speaker.html", **data)
+
+
+@app.route("/community_<community>.html")
+def community(community):
+    uid = community
+    v = by_uid["communities"][uid]
+    data = _data()
+    data["community"] = v
+    return render_template("community.html", **data)
 
 
 #@app.route("/workshop_<workshop>.html")

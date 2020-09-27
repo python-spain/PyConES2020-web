@@ -7,36 +7,38 @@
 {% block content %}
 
 <!-- Title -->
-<div class="pp-card m-3">
-  <div class="card-header row">
-    <div class="col-md-2 col-sm-5 my-3">
-      <img src="{{speaker.image}}" width="100%" class="img-thumbnail" />
-    </div>
-    <div class="col-md-10 col-sm-6">
-      <h2 class="card-title main-title text-center">
-        {{speaker.title}}
-      </h2>
-      <h3 class="card-subtitle text-muted text-center mt-1">
-        {{speaker.speaker}}
-      </h3>
-      <h6 class="h6 font-italic text-center mt-4">
-        {{speaker.topic}}
-      </h6>
-    </div>
-  </div>
-</div>
-<div id="details" class="pp-card m-3">
-  <div class="card-body">
-    <div class="card-text">
-      <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span><br />
-        {{speaker.abstract|safe}} <br /><br />
-
-        <span class="font-weight-bold">Bio:</span><br />
-        {{speaker.bio.replace('\n', '<br>')|safe}}
+<div class="speaker">
+  <div class="pp-card m-3">
+    <div class="card-header row">
+      <div class="col-md-2 col-sm-5 my-3">
+        <img src="{{speaker.image}}" width="100%" class="img-thumbnail" />
+      </div>
+      <div class="col-md-10 col-sm-6">
+        <h2 class="card-title main-title text-center">
+          {{speaker.title}}
+        </h2>
+        <h3 class="card-subtitle text-muted text-center mt-1">
+          {{speaker.speaker}}
+        </h3>
+        <h6 class="h6 font-italic text-center mt-4">
+          {{speaker.topic}}
+        </h6>
       </div>
     </div>
-    <p></p>
+  </div>
+  <div id="details" class="pp-card m-3">
+    <div class="card-body">
+      <div class="card-text">
+        <div id="abstractExample">
+          <span class="font-weight-bold">Abstract:</span><br />
+          {{speaker.abstract|safe}} <br /><br />
+
+          <span class="font-weight-bold">Bio:</span><br />
+          {{speaker.bio.replace('\n', '<br>')|safe}}
+        </div>
+      </div>
+      <p></p>
+    </div>
   </div>
 </div>
 

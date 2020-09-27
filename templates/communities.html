@@ -1,0 +1,21 @@
+{% set page_title = "Comunidades" + " | PyConES 2020" %}
+{% set page_description= "Listado de Comunidades del evento PyConES 2020 Pandemic Edition." %}
+{% set page_image = "https://2020.es.pycon.org/static/images/communities/pycones2020_social.png" %}
+{% set page_image_alt= "Agenda de Comunidades de PyConES 2020" %}
+
+{% set active_page = "Comunidades" %}
+{% extends "base.html" %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="py-3 px-3 px-sm-0">
+    <!-- Speakers -->
+    {{ components.section("Comunidades") }}
+    <div class="communities">
+      {{ components.communitygroup(communities) }}
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -56,9 +56,15 @@
                         <div class="schedule-tag">{{ slot.start }} - {{ slot.end }}h</div>
                         <div class="schedule-info">
                             {% if slot.UID %}
-                            <a href="speaker_{{slot.UID}}.html" class="schedule-info-title">
-                              {{slot.title}}
-                            </a>
+                              {% if slot.type in ['community', 'lightning'] %}
+                              <a href="community_{{slot.UID}}.html" class="schedule-info-title community">
+                                {{slot.title}}
+                              </a>
+                              {% elif slot.type in ['talk'] %}
+                              <a href="speaker_{{slot.UID}}.html" class="schedule-info-title speaker">
+                                {{slot.title}}
+                              </a>
+                              {% endif %}
                             {% else %}
                             <div class="schedule-info-title">
                               {{slot.title}}

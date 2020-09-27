@@ -1,0 +1,45 @@
+{% set page_title = community.community + " | Comunidades  | PyConES 2020" %}
+{% set page_description = community.about_short %}
+{% set page_image = "https://2020.es.pycon.org/" + community.social_image %}
+{% set page_image_alt = community.community %}
+
+{% extends "base.html" %}
+{% block content %}
+
+<div class="community">
+  <!-- Title -->
+  <div class="pp-card m-3">
+    <div class="card-header row">
+      <div class="col-md-2 col-sm-5 my-3">
+        <img src="{{community.image}}" width="100%" class="img-thumbnail" />
+      </div>
+      <div class="col-md-10 col-sm-6">
+        <h2 class="card-title main-title text-center">
+          {{community.community}}
+        </h2>
+        {# <!--
+        <h3 class="card-subtitle text-muted text-center mt-1">
+          {{community.community}}
+        </h3>
+        <h6 class="font-italic mt-4">
+          {{community.about|markdown}}
+        </h6>
+        --> #}
+      </div>
+    </div>
+  </div>
+  <div id="details" class="pp-card m-3">
+    <div class="card-body">
+      <div class="card-text">
+        <div id="abstractExample">
+          {{community.about|markdown}}
+        </div>
+      </div>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<!-- Presentation Embed -->
+
+{% endblock %}
