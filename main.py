@@ -259,6 +259,8 @@ def generator():
 
     #for paper in site_data["papers"]:
     #    yield "poster", {"poster": str(paper["UID"])}
+    for community in site_data["communities"]:
+        yield "community", {"community": str(community["UID"])}
     for speaker in site_data["speakers"]:
         yield "speaker", {"speaker": str(speaker["UID"])}
     #for workshop in site_data["workshops"]:
