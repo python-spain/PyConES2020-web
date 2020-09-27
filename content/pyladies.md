@@ -16,15 +16,8 @@ Actualmente estamos revisando las solicitudes en base a los mentores y mentoras 
 
 ### Quiero mentorizar
 
-¿Tienes experiencia programando con python y quieres mentorizar a nuestras estudiantes?
+El plazo para inscribirse como coach terminó el 27 de septiembre. Si te apuntaste en plazo, te enviaremos un correo (si no lo hemos hecho ya, **comprueba el spam por si acaso!**) y te asignaremos un pequeño grupo de alumnas. Tu labor será guiarlas y ayudar con las dudas que les puedan surgir mientras siguen el tutorial de django. Puedes revisar el [manual de mentorización de Django Girls](https://coach.djangogirls.org/) para hacerte una idea, aunque habrá cosas que adaptaremos al formato remoto.
 
-<div class="text-center my-5">
-<a class="btn btn-lg py-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeK1FfdDCEemgz3LW3cEJoqr52et_0-8VUMs4hSDVDu4vzaqg/viewform" target="_blank">Apúntate como mentora o mentor en este formulario</a>
-</div>
-
-Te asignaremos un pequeño grupo de alumnas y tu labor será guiarlas y ayudar con las dudas que les puedan surgir mientras siguen el tutorial de django. Puedes revisar el [manual de mentorización de Django Girls](https://coach.djangogirls.org/) para hacerte una idea, aunque habrá cosas que adaptaremos al formato remoto. Te escribiremos con más detalles una vez te hayas apuntado.
-
-El plazo para inscribirse cierra el 20 de septiembre.
 
 ### Preguntas frecuentes
 
