@@ -48,10 +48,16 @@ La Organización de PyConES 2020 es responsable de aclarar y hacer cumplir este 
 
 Los casos de comportamiento abusivo, acosador o inaceptable de otro modo podrán ser denunciados a las personas que conforman la Organización responsables del cumplimiento por medio de estas vías:
 
+Todas las personas de la Organización de PyConES 2020 están obligadas a respetar la privacidad y la seguridad de quienes denuncien incidentes.
+
+#### Quiero reportar de forma anónima
+
+- Mediante nuestro [FORMULARIO DE REPORTE](https://forms.gle/fRqf3JoKgdvYby257) de forma totalmente anónima.
+
+#### Quiero reportar en persona
+
 - Mediante mensaje directo a la cuenta de Twitter [@PyConES](https://twitter.com/PyConES)
 - Enviando un correo electrónico a [contact@2020.es.pycon.org](mailto:contact@2020.es.pycon.org)
-
-Todas las personas de la Organización de PyConES 2020 están obligadas a respetar la privacidad y la seguridad de quienes denuncien incidentes.
 
 ### Atribución
 
