@@ -42,6 +42,17 @@
 {% include 'inc_agenda.html' %}
 
 <div class="py-1 px-3 px-sm-0">
+    {{ components.section("Streaming") }}
+    <div class="streaming">
+      <div class="video-wrapper">
+        <iframe width="100%" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLahUDl6AAwrjBMj6x8b_68Gkta2ghLxme"
+           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+           frameborder="0"  allowfullscreen></iframe>
+      </div>
+    </div>
+</div>
+
+<div class="py-1 px-3 px-sm-0">
     {{ components.section("Newsletter") }}
     {% include 'inc_newsletter.html' %}
 </div>
