@@ -74,25 +74,37 @@
                               {{ slot.speaker }}
                             </div>
                         </div>
+                        {#
                         {% if slot.video_url or slot.show_chat %}
                         <div class="schedule-actions">
                             {% if slot.video_url %}
-                            <a href="{{ slot.video_url }}"
+                            <a href="https://youtu.be/{{ slot.video_url }}"
                                class="btn btn-outline-danger video">
                                 <svg><use xlink:href="static/images/sprite.svg#video"/></svg>
-                                <div>Ver vídeo</div>
+                                <span>vídeo</span>
                             </a>
                             {% endif %}
-                            {% if slot.show_chat %}
+                            {% if slot.chat_url %}
                             <a href="{{ slot.chat_url }}"
                                class="btn btn-outline-dark chat">
                                 <svg><use xlink:href="static/images/sprite.svg#chat"/></svg>
-                                <div>Q & A</div>
+                                <span>Foro (Q & A)</span>
                             </a>
                             {% endif %}
                         </div>
                         {% endif %}
+                        #}
                     </div>
+                    {#
+                    {% if slot.video_url %}
+                    <div class="video-box">
+                      <div class="video-wrapper">
+                        <iframe width="560" height="315" frameborder="0" src="https://www.youtube-nocookie.com/embed/{{ slot.video_url }}"
+                          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    {% endif %}
+                    #}
                 </div>
                 {% endfor %}
             </div>

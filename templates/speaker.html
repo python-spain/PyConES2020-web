@@ -28,6 +28,21 @@
   </div>
   <div id="details" class="pp-card m-3">
     <div class="card-body">
+      <div class="card-video-chat">
+        <div class="video-wrapper">
+          <iframe width="100%" frameborder="0" src="https://www.youtube-nocookie.com/embed/{{ speaker.video_url }}"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        {% if speaker.chat_url %}
+        <div class="schedule-actions">
+          <a href="{{ speaker.chat_url }}"
+             class="btn btn-outline-dark chat">
+              <svg><use xlink:href="static/images/sprite.svg#chat"/></svg>
+              <span>Foro (Q & A)</span>
+          </a>
+        </div>
+        {% endif %}
+      </div>
       <div class="card-text">
         <div id="abstractExample">
           <span class="font-weight-bold">Abstract:</span><br />
