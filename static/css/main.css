@@ -497,13 +497,13 @@ body .py-btn:hover {
   height: 2.375rem;
 }
 
-.schedule-actions .btn:nth-child(2) {
+.schedule-actions .btn:not(:first-child) {
   margin-left: .5rem;
 }
 
 @media (min-width: 992px) {
   .schedule-actions {
-    flex: 0 0 15rem;
+    flex: 0 0 16rem;
     margin-top: 0;
     margin-left: 15px;
     padding: 3px 8px;

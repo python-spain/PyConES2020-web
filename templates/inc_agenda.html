@@ -75,14 +75,7 @@
                             </div>
                         </div>
                         {% if slot.video_url or slot.show_chat %}
-                        <div class="schedule-actions">
-                            {% if slot.video_url %}
-                              <a href="https://youtu.be/{{ slot.video_url }}" target="_blank"
-                                 class="btn btn-outline-danger video">
-                                <svg><use xlink:href="static/images/sprite.svg#video"/></svg>
-                                <span>vídeo</span>
-                            </a>
-                            {% endif %}
+                          <div class="schedule-actions">
                             {% if slot.chat_url %}
                             <a href="{{ slot.chat_url }}" target="_blank"
                                class="btn btn-outline-dark chat">
@@ -90,13 +83,45 @@
                                 <span>Q & A</span>
                             </a>
                             {% endif %}
+                            {% if slot.video_url %}
+                              <a class="btn btn-outline-danger video"
+                                 href="#video-{{ slot.video_url }}"
+                                 aria-controls="video-{{ slot.video_url }}"
+                                 role="button" aria-expanded="false"
+                                 data-toggle="collapse">
+                                <svg><use xlink:href="static/images/sprite.svg#video"/></svg>
+                                <span>vídeo -</span>
+                            </a>
+                            {# Old button with youtube link
+                            <a href="https://youtu.be/{{ slot.video_url }}" target="_blank"
+                                 class="btn btn-outline-danger video">
+                                <svg><use xlink:href="static/images/sprite.svg#video"/></svg>
+                                <span>vídeo</span>
+                            </a>
+                            #}
+                            {% endif %}
                         </div>
                         {% endif %}
                     </div>
+                    {% if slot.video_url %}
+                    <div class="video-box collapse" id="video-{{ slot.video_url }}">
+                      <div class="video-wrapper">
+                        <iframe width="560" height="315" frameborder="0" src="https://www.youtube-nocookie.com/embed/{{ slot.video_url }}"
+                          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    {% endif %}
                 </div>
                 {% endfor %}
             </div>
         </div>
     </div>
     {# <div class="small text-secondary text-center">NOTA: El orden de las ponencias es provisional, pude sufrir cambios.</div> #}
+    <script type="text/javascript">
+      $('.btn.video').click(function() {
+        $(this).children("span").text(function(i, old) {
+          return old == 'video -' ? 'video +' : 'video -';
+        });
+      });
+    </script>
 </div>
