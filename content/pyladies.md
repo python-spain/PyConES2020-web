@@ -99,7 +99,7 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <td align="center"><img src="https://cocomaterial.com/media/face_normal_person_man-2.svg" style="height:150px">Jorge Barata<br>
 <a href="https://twitter.com/"> &nbsp;<a></td>
     <td align="center"><img src="https://drive.google.com/file/d/1LJ52Oa3IW8-fYsXjxeSVzS3dubTAGESS/view?usp=sharing" style="height:150px">Leticia<br>
-<a href="www.linkedin.com/in/leticiaperrino">@leticiaperrino<a></td>
+<a href="https://www.linkedin.com/in/leticiaperrino">@leticiaperrino<a></td>
     <td align="center"><img src="https://cocomaterial.com/media/face_normal_person_man-2.svg" style="height:150px">Lorena Calabuig<br>
 <a href="https://twitter.com/"> &nbsp;<a></td></tr>
   <tr>
