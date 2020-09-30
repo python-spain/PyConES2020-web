@@ -42,3 +42,11 @@ Si tienes alguna otra pregunta, escríbenos a [pyladies@2020.es.pycon.org](mailt
         <img src="static/images/djangogirlsmca.jpg" alt="Django Girls Mallorca" style="height: 8rem; margin: .5rem;">
     </a>
 </div>
+
+### Patrocina
+
+<div style="display: flex; flex-wrap: wrap;">
+    <a href="https://www.jetbrains.com/">
+        <img src="static/images/jbLogo.png" alt="Jetbrains" style="height: 8rem; margin: .5rem;">
+    </a>
+</div>
