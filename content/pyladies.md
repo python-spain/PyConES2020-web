@@ -71,6 +71,7 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
   <div class="coach">
     <img src="https://avatars0.githubusercontent.com/u/142259?s=460&u=1d2db86057d9accdf12ffb725b19323b76057474&v=4">
     <div class="name">Antonio Bustos</div>
+    <a href="https://twitter.com/antoniobusrod">@antoniobusrod</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/AntonioRamírez.jpg">
