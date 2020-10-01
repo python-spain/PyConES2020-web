@@ -30,6 +30,11 @@ body {
   background-color: white;
 }
 
+.navbar-expand-lg .navbar-nav {
+  text-align: center;
+  align-items: center;
+}
+
 #main-nav {
   padding-top: 10px;
   padding-bottom: 10px;
