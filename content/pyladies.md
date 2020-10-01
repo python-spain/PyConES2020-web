@@ -79,8 +79,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <a href="https://twitter.com/Morgulero">@Morgulero</a>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/AugustoFerrari.jpg">
     <div class="name">Augusto Ferrari</div>
+    <a href="https://twitter.com/AguFerrari_">@AguFerrari_</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/BeatrizGomez.jpg">
@@ -98,8 +99,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <a href="https://twitter.com/celtwine">@celtwine</a>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/CristinaMorilla.jpg">
     <div class="name">Cristina Morilla</div>
+    <a href="https://twitter.com/qkr1s">@qkr1s</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/Daniela.jpg">
@@ -183,8 +185,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <div class="name">Jimena</div>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
-    <div class="name">Johanna sanchez</div>
+    <img src="static/images/coaches/JohannaSanchez.jpg">
+    <div class="name">Johanna Sanchez</div>
+    <a href="https://twitter.com/EllaQuimica">@EllaQuimica</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/JordiSaludes.png">
@@ -192,8 +195,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <a href="https://twitter.com/jsaludes">@jsaludes</a>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/JorgeBarata.jpg">
     <div class="name">Jorge Barata</div>
+    <a href="https://twitter.com/neuralhacker">@neuralhacker</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/Leticia.jpg">
@@ -239,12 +243,14 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <a href="https://twitter.com/merinhunter">@merinhunter</a>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/SergueiKomlev.jpg">
     <div class="name">Serguei Komlev</div>
+    <a href="https://twitter.com/skomlev90">@skomlev90</a>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
-    <div class="name">Sofia</div>
+    <img src="static/images/coaches/SofiaCarballo.jpeg">
+    <div class="name">Sofia Carballo</div>
+    <a href="http://linkedin.com/in/sofia-carballo/">@sofia-carballo</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/Teresa.jpg">
@@ -266,8 +272,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <a href="https://moduslaborandi.net/">@Modus Laborandi</a>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/YazminCumberbirch.jpg">
     <div class="name">Yazmin Cumberbirch</div>
+    <a href="https://twitter.com/ycumberbirch">@ycumberbirch</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/FrancisSantiago.jpg">
