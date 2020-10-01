@@ -65,8 +65,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <div class="name">Andros</div>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/AntoniAloy.jpg">
     <div class="name">Antoni Aloy</div>
+    <a href="https://twitter.com/aaloy">@aaloy</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/AntonioBustos.png">
@@ -133,8 +134,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <a href="https://twitter.com/insilix">@insilix</a>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/Plata.jpeg">
     <div class="name">Eun Young Cho</div>
+    <a href="https://twitter.com/eunEsPlata">@eunEsPlata</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/FedericoMon.jpg">
@@ -314,5 +316,8 @@ Si tienes alguna otra pregunta, escríbenos a [pyladies@2020.es.pycon.org](mailt
 <div style="display: flex; flex-wrap: wrap;">
     <a href="https://www.jetbrains.com/">
         <img src="static/images/jbLogo.png" alt="Jetbrains" style="height: 8rem; margin: .5rem;">
+    </a>
+    <a href="https://www.manning.com/">
+        <img src="static/images/1601577961621_Manninglogo_outline.png" alt="Manning" style="height: 8rem; margin: .5rem;">
     </a>
 </div>
