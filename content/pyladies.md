@@ -27,7 +27,7 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
         flex: 0 0 200px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         margin: 1rem .5rem;
     }
@@ -45,252 +45,225 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
   <div class="coach">
     <img src="static/images/coaches/AdriánCastellanos.jpg">
     <div class="name">Adrián Castellanos</div>
-    <a href="https://twitter.com/_adriancast">@_adriancast<a>
+    <a href="https://twitter.com/_adriancast">@_adriancast</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/AgustínScaramuzza.jpg">
     <div class="name">Agustín Scaramuzza</div>
-    <a href="https://twitter.com/scaramagus">@scaramagus<a></td>
+    <a href="https://twitter.com/scaramagus">@scaramagus</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Andrés Orcajo</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Andreu Vallbona</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Andros</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Antoni Aloy</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Antonio Bustos</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/AntonioRamírez.jpg">
     <div class="name">Antonio Ramírez</div>
-    <a href="https://twitter.com/Morgulero">@Morgulero<a></td>
+    <a href="https://twitter.com/Morgulero">@Morgulero</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Augusto Ferrari</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Beatriz Gomez</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/Cecil.jpeg">
     <div class="name">Cecil</div>
-    <a href="https://twitter.com/Cecil_gabaxi">@Cecil_gabaxi<a></td>
+    <a href="https://twitter.com/Cecil_gabaxi">@Cecil_gabaxi</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/CeliaAmador.jpg">
     <div class="name">Celia Amador</div>
-    <a href="https://twitter.com/celtwine">@celtwine<a></td>
+    <a href="https://twitter.com/celtwine">@celtwine</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Cristina Morilla</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/Daniela.jpg">
     <div class="name">Daniela</div>
-    <a href="https://www.linkedin.com/in/daniela-bonilla-caita-530aa2145">@daniela-bonilla-caita-530aa2145<a>
+    <a href="https://www.linkedin.com/in/daniela-bonilla-caita-530aa2145">@daniela-bonilla-caita</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/DianaM.Meneses.jpeg">
     <div class="name">Diana M. Meneses</div>
-    <a href="https://github.com/dianamenesesg">@dianamenesesg<a></td>
+    <a href="https://github.com/dianamenesesg">@dianamenesesg</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/EmilioCarrión.png">
     <div class="name">Emilio Carrión</div>
-    <a href="https://twitter.com/emcarrio">@emcarrio<a></td>
+    <a href="https://twitter.com/emcarrio">@emcarrio</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Enrique Palenque</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Estela Medrano</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/EstrellaSuárez.png">
     <div class="name">Estrella Suárez</div>
-    <a href="https://twitter.com/insilix">@insilix<a></td>
+    <a href="https://twitter.com/insilix">@insilix</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Eun Young Cho</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Federico Mon</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/FranciscoJ.Asensi.png">
     <div class="name">Francisco J. Asensi</div>
-    <a href="https://twitter.com/AsensiFj">@AsensiFj<a></td>
+    <a href="https://twitter.com/AsensiFj">@AsensiFj</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/F.JavierOrdóñez.jpg">
     <div class="name">F. Javier Ordóñez</div>
-    <a href="https://twitter.com/fjordonz ">@fjordonz <a></td>
+    <a href="https://twitter.com/fjordonz ">@fjordonz </a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/IñakiPérezdeAlbéniz.jpg">
     <div class="name">Iñaki Pérez de Albéniz</div>
-    <a href="https://twitter.com/ialbeniz">@ialbeniz<a></td>
+    <a href="https://twitter.com/ialbeniz">@ialbeniz</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/IsabelCazorlaArtigues.jpeg">
     <div class="name">Isabel Cazorla Artigues</div>
-    <a href="https://twitter.com/isacazorl">@isacazorl<a></td>
+    <a href="https://twitter.com/isacazorl">@isacazorl</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Isabel González</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Israel Saeta Pérez</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/IvánJoséMartínGarcía.jpg">
     <div class="name">Iván José Martín García</div>
-    <a href="https://twitter.com/seikv">@seikv<a></td>
+    <a href="https://twitter.com/seikv">@seikv</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Jesus Eraso Lerena</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Jimena</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Johanna sanchez</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/JordiSaludes.png">
     <div class="name">Jordi Saludes</div>
-    <a href="https://twitter.com/jsaludes">@jsaludes<a></td>
+    <a href="https://twitter.com/jsaludes">@jsaludes</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Jorge Barata</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/Leticia.jpg">
     <div class="name">Leticia</div>
-    <a href="https://www.linkedin.com/in/leticiaperrino">@leticiaperrino<a></td>
+    <a href="https://www.linkedin.com/in/leticiaperrino">@leticiaperrino</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Lorena Calabuig</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td></tr>
   </div>
   <div class="coach">
     <img src="static/images/coaches/MónicaGarcía.jpeg">
     <div class="name">Mónica García</div>
-    <a href="https://www.linkedin.com/in/m%C3%B3nica-garc%C3%ADa-nebreda-4993b57b">@mónica-garcía-nebreda-4993b57b/<a>
+    <a href="https://www.linkedin.com/in/m%C3%B3nica-garc%C3%ADa-nebreda-4993b57b">@mónica-garcía-nebreda</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/NachoAguado.jpg">
     <div class="name">Nacho Aguado</div>
-    <a href="http://linkedin.com/in/ignacioaguadoc/">@ignacioaguadoc<a></td>
+    <a href="http://linkedin.com/in/ignacioaguadoc/">@ignacioaguadoc</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Nathalie Nieto</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Rubén Valseca</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/Salvador.jpg">
     <div class="name">Salvador</div>
-    <a href="https://twitter.com/_salvama">@_salvama<a></td>
+    <a href="https://twitter.com/_salvama">@_salvama</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/SandraSaornil.png">
     <div class="name">Sandra Saornil</div>
-    <a href="https://twitter.com/ssaornil">@ssaornil<a></td>
+    <a href="https://twitter.com/ssaornil">@ssaornil</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Sergio</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Serguei Komlev</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Sofia</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/Teresa.jpg">
     <div class="name">Teresa</div>
-    <a href="https://www.linkedin.com/in/tegarce/">@tegarce<a></td>
+    <a href="https://www.linkedin.com/in/tegarce/">@tegarce</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Unai Pastor Garrido</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/YábirGarcía.jpg">
     <div class="name">Yábir García</div>
-    <a href="https://twitter.com/yabirgb">@yabirgb<a></td>
+    <a href="https://twitter.com/yabirgb">@yabirgb</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Yamila Moreno</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
     <div class="name">Yazmin Cumberbirch</div>
-    <a href="https://twitter.com/"> &nbsp;<a></td>
   </div>
   <div class="coach">
     <img src="static/images/coaches/FrancisSantiago.jpg">
     <div class="name">Francis Santiago</div>
-    <a href="https://twitter.com/sancfc">@sancfc<a></td>
+    <a href="https://twitter.com/sancfc">@sancfc</a>
   </div>
 </div>
 
