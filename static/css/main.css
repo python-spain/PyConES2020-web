@@ -419,6 +419,9 @@ body .py-btn:hover {
   position: relative;
   margin-bottom: 0.7em;
   background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .schedule-card:after {
