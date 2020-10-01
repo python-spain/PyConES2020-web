@@ -69,7 +69,7 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <div class="name">Antoni Aloy</div>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="https://avatars0.githubusercontent.com/u/142259?s=460&u=1d2db86057d9accdf12ffb725b19323b76057474&v=4">
     <div class="name">Antonio Bustos</div>
   </div>
   <div class="coach">
