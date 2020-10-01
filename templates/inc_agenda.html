@@ -63,6 +63,7 @@
                               {% elif slot.type in ['talk'] %}
                               <a href="speaker_{{slot.UID}}.html" class="schedule-info-title speaker">
                                 {{slot.title}}
+                                {% if slot.lang == 'en' %}<span class="badge badge-secondary lang">english</span>{% endif %}
                               </a>
                               {% endif %}
                             {% else %}

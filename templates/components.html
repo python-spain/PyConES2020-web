@@ -65,6 +65,7 @@
               <h3>
                 <a href="speaker_{{speaker.UID}}.html" class="main-title">
                   {{speaker.title}}
+                  {% if speaker.lang == 'en' %}<span class="badge badge-secondary lang">english</span>{% endif %}
                 </a>
               </h3>
             </div>
