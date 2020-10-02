@@ -3,7 +3,7 @@ start,end,type,title,UID,speaker,lang,has_sub,video_url,chat_url
 10:00,10:15,talk,COVID19Gram: seguimiento de la evolución del coronavirus desde telegram,6,Antònia Tugores / Biel Frontera Borrueco / Jaume Perelló Perelló,,,p0lav_dPSxE,https://comunidad.es.python.org/t/covid19gram-seguimiento-de-la-evolucion-del-coronavirus-desde-telegram/356/2
 10:15,10:20,community,Python Castilla y León & PyData Salamanca,5,,,,WeGSIZ-3SI8,
 10:30,10:45,talk,Investigating Digital Crimes using Python,9,Gajendra Deshpande,en,,0Jt-xm7kC2Y,https://comunidad.es.python.org/t/investigating-digital-crimes-using-python/372/1
-10:45,10:59,community,Python Navarra,12,,,,C-vdmYFfWck,
+10:45,10:50,community,Python Navarra,12,,,,C-vdmYFfWck,
 11:00,11:15,talk,Interpretabilidad de Modelos de Machine Learning con Python,7,Antonio José Soto Rodriguez,,,CoghIHdAMSM,https://comunidad.es.python.org/t/interpretabilidad-de-modelos-de-machine-learning-con-python/365/1
 11:15,11:20,community,Python Almería,2,,,,Doub2vARmrc,
 11:30,11:45,talk,Videojuegos con Python Arcade,13,Miguel Ángel Rico Blanco,,,8kRgYh2lgTo,https://comunidad.es.python.org/t/videojuegos-con-python-arcade/366/1
