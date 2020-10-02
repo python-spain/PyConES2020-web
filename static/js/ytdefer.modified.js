@@ -28,8 +28,8 @@ function ytdefer_setup()
           || document.documentElement.clientHeight
           || document.body.clientHeight;
 
-        var w = width > 992? 560 : 256;
-        var h = width > 992? 315 : 144;
+        var w = width > 992? 448 : 256;
+        var h = width > 992? 252 : 144;
 
         var dv = d.createElement('div');
         dv.id = 'ytdefer_vid'+i;
@@ -111,8 +111,8 @@ function ytdefer_resize()
           || document.documentElement.clientHeight
           || document.body.clientHeight;
 
-        var w = width > 992? 560 : 256;
-        var h = width > 992? 315 : 144;
+        var w = width > 992? 448 : 256;
+        var h = width > 992? 252 : 144;
         var dv = d.getElementById('ytdefer_vid'+i);
         dv.style.width = w+'px';
         dv.style.height = h+'px';

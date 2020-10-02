@@ -441,14 +441,28 @@ body .py-btn:hover {
 }
 
 .schedule-card{
-  box-shadow: 0 0px 5px rgba(0,0,0,.07);
+  box-shadow: 2px 2px 5px rgba(0,0,0,.07);
   position: relative;
   margin-bottom: 0.7em;
   background-color: var(--color-white);
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 280px;
+  transition: transform .5s, color .5s;
 }
+.schedule-card.right-now{
+  box-shadow: 10px 10px 10px rgba(0,0,0,.09);
+  border: 1px solid var(--color-white);
+  z-index: 10;
+  transform: scale(105%);
+}
+.schedule-card.right-now.workshop { border-color: var(--color-orange700); }
+.schedule-card.right-now.org      { border-color: var(--color-grayscale700); }
+.schedule-card.right-now.talk     { border-color: var(--color-primary500); }
+.schedule-card.right-now.community  { border-color: var(--color-secondary400); }
+.schedule-card.right-now.lightning  { border-color: var(--color-red300); }
+.schedule-card.right-now.assembly   { border-color: var(--color-yellow700); }
 
 .schedule-card:after {
   height: 2px;
@@ -574,8 +588,8 @@ body .py-btn:hover {
 
 @media (min-width: 992px) {
   .video-wrapper iframe {
-    width: 560px;
-    height: 315px;
+    width: 448px;
+    height: 252px;
   }
   .streaming .video-wrapper iframe {
     width: 1120px;
