@@ -16,6 +16,7 @@
       <div class="col-md-10 col-sm-6">
         <h2 class="card-title main-title text-center">
           {{speaker.title}}
+          {% if speaker.lang == 'en' %}<span class="badge badge-secondary lang">english</span>{% endif %}
         </h2>
         <h3 class="card-subtitle text-muted text-center mt-1">
           {{speaker.speaker}}

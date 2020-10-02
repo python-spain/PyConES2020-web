@@ -1,3 +1,5 @@
+<script src="static/js/ytdefer.modified.js"></script>
+
 <div class="py-3 px-3 px-sm-0">
     <!-- Speakers -->
     {{ components.section("Agenda") }}
@@ -63,6 +65,7 @@
                               {% elif slot.type in ['talk'] %}
                               <a href="speaker_{{slot.UID}}.html" class="schedule-info-title speaker">
                                 {{slot.title}}
+                                {% if slot.lang == 'en' %}<span class="badge badge-secondary lang">english</span>{% endif %}
                               </a>
                               {% endif %}
                             {% else %}
@@ -104,11 +107,19 @@
                         {% endif %}
                     </div>
                     {% if slot.video_url %}
+                    {# Old style, very slow
                     <div class="video-box collapse" id="video-{{ slot.video_url }}">
                       <div class="video-wrapper">
                         <iframe width="560" height="315" frameborder="0" src="https://www.youtube-nocookie.com/embed/{{ slot.video_url }}"
                           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
+                    </div>
+                    #}
+                    <div class="video-box collapse" id="video-{{ slot.video_url }}">
+                      <div class="ytdefer"
+                           data-alt="'{{ slot.title }}' - {{ slot.speaker }}"
+                           data-title="'{{ slot.title }}' - {{ slot.speaker }}"
+                           data-src="{{ slot.video_url }}"></div>
                     </div>
                     {% endif %}
                 </div>
@@ -117,11 +128,13 @@
         </div>
     </div>
     {# <div class="small text-secondary text-center">NOTA: El orden de las ponencias es provisional, pude sufrir cambios.</div> #}
-    <script type="text/javascript">
-      $('.btn.video').click(function() {
-        $(this).children("span").text(function(i, old) {
-          return old == 'video -' ? 'video +' : 'video -';
-        });
-      });
-    </script>
 </div>
+<script type="text/javascript">
+  window.addEventListener('load', ytdefer_setup);
+
+  $('.btn.video').click(function() {
+    $(this).children("span").text(function(i, old) {
+      return old == 'video -' ? 'video +' : 'video -';
+    });
+  });
+</script>

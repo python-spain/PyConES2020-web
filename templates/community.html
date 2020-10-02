@@ -25,6 +25,39 @@
           {{community.about|markdown}}
         </h6>
         --> #}
+        <div class="card-text">
+          <div class="social-link-list">
+              {% if community.meetup %}
+              {% for lnk in community.meetup.split(',') %}
+              <div class="social-link">
+                  <a href="https://www.meetup.com/{{ lnk }}/" target="_blank">
+                      <svg class="meetup"><use xlink:href="static/images/sprite.svg#meetup"/></svg>
+                      {{ lnk }}
+                  </a>
+              </div>
+              {% endfor %}
+              {% endif %}
+              {% if community.twitter %}
+              {% for lnk in community.twitter.split(',') %}
+              <div class="social-link">
+                  <a href="https://twitter.com/{{ lnk }}" target="_blank">
+                      <svg class="twitter"><use xlink:href="static/images/sprite.svg#twitter"/></svg>
+                      @{{ lnk }}
+                  </a>
+              </div>
+              {% endfor %}
+              {% endif %}
+              {% if community.webs %}
+              {% for lnk in community.webs.split(',') %}
+              <div class="social-link">
+                  <a href="{{ lnk }}" target="_blank">
+                      <svg class="link"><use xlink:href="static/images/sprite.svg#link"/></svg>
+                      {{ lnk.replace('https://', '').replace('http://', '') }}
+                  </a>
+              </div>
+              {% endfor %}
+              {% endif %}
+          </div>
       </div>
     </div>
   </div>
@@ -36,12 +69,10 @@
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="card-text">
         <div id="abstractExample">
           {{community.about|markdown}}
         </div>
       </div>
-      <p></p>
     </div>
   </div>
 </div>
