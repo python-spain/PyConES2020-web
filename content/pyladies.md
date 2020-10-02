@@ -57,8 +57,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <div class="name">Andrés Orcajo</div>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/andreu.jpg">
     <div class="name">Andreu Vallbona</div>
+    <a href="https://twitter.com/avallbona">@avallbona</a>
   </div>
   <div class="coach">
     <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
@@ -123,10 +124,6 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <img src="static/images/coaches/EnriquePalenque.png">
     <div class="name">Enrique Palenque</div>
     <a href="https://twitter.com/epalenquebau">@epalenquebau</a>
-  </div>
-  <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
-    <div class="name">Estela Medrano</div>
   </div>
   <div class="coach">
     <img src="static/images/coaches/EstrellaSuárez.png">
