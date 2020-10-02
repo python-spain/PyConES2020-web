@@ -53,8 +53,9 @@ Queremos dar nuestro aplauso más grande a los coaches de esta edición por su c
     <a href="https://twitter.com/scaramagus">@scaramagus</a>
   </div>
   <div class="coach">
-    <img src="https://cocomaterial.com/media/face_normal_person_man-2.svg">
+    <img src="static/images/coaches/AndresOrcajo.jpeg">
     <div class="name">Andrés Orcajo</div>
+    <a href="https://twitter.com/aorcajo">@aorcajo</a>
   </div>
   <div class="coach">
     <img src="static/images/coaches/andreu.jpg">
