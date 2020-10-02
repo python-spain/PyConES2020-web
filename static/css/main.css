@@ -360,6 +360,27 @@ body .carousel-control-prev {
   }
 }
 
+.social-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.social-link-list .social-link {
+  margin: 0 .5rem;
+}
+
+.social-link-list svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+svg.meetup { fill: #e51937; }
+svg.twitter { fill: #1DA1F2; }
+
 /* customization */
 
 .py-bg {
