@@ -26,24 +26,6 @@
                               {{ slot.speaker }}
                             </div>
                         </div>
-                        {% if slot.video_url or slot.show_chat %}
-                        <div class="schedule-actions">
-                            {% if slot.video_url %}
-                            <a href="{{ slot.video_url }}"
-                               class="btn btn-outline-danger video">
-                                <svg><use xlink:href="static/images/sprite.svg#video"/></svg>
-                                <div>Ver vídeo</div>
-                            </a>
-                            {% endif %}
-                            {% if slot.show_chat %}
-                            <a href="{{ slot.chat_url }}"
-                               class="btn btn-outline-dark chat">
-                                <svg><use xlink:href="static/images/sprite.svg#chat"/></svg>
-                                <div>Q & A</div>
-                            </a>
-                            {% endif %}
-                        </div>
-                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}
@@ -53,7 +35,7 @@
             <div class="schedule-warp">
                 <div class="day">3 de Octubre (Sábado)</div>
                 {% for slot in day2 %}
-                <div class="schedule-card {{ slot.type }}">
+                <div class="schedule-card {{ slot.type }}" data-start="{{ slot.start }}" data-end="{{ slot.end }}">
                     <div class="insidebox">
                         <div class="schedule-tag">{{ slot.start }} - {{ slot.end }}h</div>
                         <div class="schedule-info">
@@ -130,11 +112,35 @@
     {# <div class="small text-secondary text-center">NOTA: El orden de las ponencias es provisional, pude sufrir cambios.</div> #}
 </div>
 <script type="text/javascript">
+  // For slow load youtube videos
   window.addEventListener('load', ytdefer_setup);
 
+  // Click video button change the button text
   $('.btn.video').click(function() {
     $(this).children("span").text(function(i, old) {
       return old == 'video -' ? 'video +' : 'video -';
     });
   });
+
+  // For apply right-now class
+  function updateCurrentSlot() {
+    var cHour = new Date().getHours().toLocaleString("es-ES", {timeZone: "Europe/Madrid"})
+    var cMinute = new Date().getMinutes().toLocaleString("es-ES", {timeZone: "Europe/Madrid"})
+    var current = Date.parse(`01/01/202020 ${cHour}:${cMinute}:00`);
+
+    $(".schedule-card[data-end]").each(function() {
+      var [sHour, sMinute] = $(this).attr("data-start").split(":")
+      var start = Date.parse(`01/01/202020 ${sHour}:${sMinute}:00`);
+      var [eHour, eMinute] = $(this).attr("data-start").split(":")
+      var end = Date.parse(`01/01/202020 ${eHour}:${eMinute}:00`);
+
+      if (current >= start && current < end) {
+        $(this).addClass("right-now");
+      } else {
+        $(this).removeClass("right-now");
+      }
+    });
+  }
+
+  setInterval(updateCurrentSlot, 10 * 1000); // 1 second = 1 * 1000
 </script>
