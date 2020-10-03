@@ -131,7 +131,7 @@
     $(".schedule-card[data-end]").each(function() {
       var [sHour, sMinute] = $(this).attr("data-start").split(":")
       var start = Date.parse(`01/01/202020 ${sHour}:${sMinute}:00`);
-      var [eHour, eMinute] = $(this).attr("data-start").split(":")
+      var [eHour, eMinute] = $(this).attr("data-end").split(":")
       var end = Date.parse(`01/01/202020 ${eHour}:${eMinute}:00`);
 
       if (current >= start && current < end) {
