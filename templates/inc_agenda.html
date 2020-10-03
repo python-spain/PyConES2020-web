@@ -31,7 +31,7 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="accordion">
             <div class="schedule-warp">
                 <div class="day">3 de Octubre (Sábado)</div>
                 {% for slot in day2 %}
@@ -97,7 +97,7 @@
                       </div>
                     </div>
                     #}
-                    <div class="video-box collapse" id="video-{{ slot.video_url }}">
+                    <div class="video-box collapse" id="video-{{ slot.video_url }}" data-parent="#accordion">
                       <div class="ytdefer"
                            data-alt="'{{ slot.title }}' - {{ slot.speaker }}"
                            data-title="'{{ slot.title }}' - {{ slot.speaker }}"
@@ -121,6 +121,12 @@
       return old == 'video -' ? 'video +' : 'video -';
     });
   });
+
+  // For the accordion effect
+  $('.video-box').on('hidden.bs.collapse', function () {
+    var button = $(this.parentElement).find('.btn.video');
+    $(button).children("span").text("video +");
+  })
 
   // For apply right-now class
   function updateCurrentSlot() {
