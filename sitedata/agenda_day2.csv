@@ -14,13 +14,13 @@ start,end,type,title,UID,speaker,lang,has_sub,video_url,chat_url
 12:45,12:50,community,Python Granada,6,,,,pgKXhg0cDyE,
 13:00,13:15,talk,EDA and NLP basics: Exploring the innards of the Spanish poetry,4,Andrea Morales Garzón / Miguel López Pérez,,,0C96vAa9NHY,https://comunidad.es.python.org/t/eda-and-nlp-basics-exploring-the-innards-of-the-spanish-poetry/369/1
 13:15,13:20,community,Python Barcelona & PyLadies Barcelona,3,,,,JYCcPr4QW_k,
-13:30,13:45,talk,Python Serverless Microservices,15,Nilo Ney Coutinho Menezes,en,,OSUqGyPaXaI,https://comunidad.es.python.org/t/python-serverless-microservices/370/1
+13:30,13:45,talk,Python Serverless Microservices,15,Nilo Ney Coutinho Menezes,en,,tmXMGRzpHQc ,https://comunidad.es.python.org/t/python-serverless-microservices/370/1
 13:45,15:00,lunch,Almuerzo,,,,,,
 15:00,15:15,talk,Hiring demystified,12,Mar Bartolomé,en,,UBLTaQ_tRl4,https://comunidad.es.python.org/t/hiring-demystified/371/1
 15:15,15:20,community,Python Canarias,4,,,,6QxgyXe7_RA,
 15:30,15:45,talk,"sudo pip install = 💩, pipx = 👌",1,Agustín Herranz Cecilia,,,Ay0dRxfduB0,https://comunidad.es.python.org/t/sudo-pip-install-pipx-ok/363/1
 15:45,15:50,community,Python Madrid,8,,,,kaJTW_yZDm0,
-16:00,16:15,talk,Una rebanada de Python,14,Naomi Ceder,,,EWuhXfPRF4I,https://comunidad.es.python.org/t/una-rebanada-de-python/364/1
+16:00,16:15,talk,Una rebanada de Python,14,Naomi Ceder,,,AiYPDhIfOo0,https://comunidad.es.python.org/t/una-rebanada-de-python/364/1
 16:15,16:20,community,Python Alicante,1,,,,Om2kcuqvAsM,
 16:30,16:45,talk,AutoML (Machine Learning para Vagos),11,Manuel Garrido Peña,,,1gLM-cM_XJ8,https://comunidad.es.python.org/t/automl-machine-learning-para-vagos/373/1
 16:45,16:50,community,Python Sevilla,13,,,,x0YF9q1pJcY,
